@@ -1,2 +1,4 @@
 \babel@toc {brazilian}{}\relax 
-\contentsline {section}{\numberline {1}Resumo}{2}{section.1}%
+\contentsline {section}{\numberline {1}Processo de Fazer Alguma Coisa}{3}{section.1}%
+\contentsline {section}{\numberline {2}Instrumentação do Processo}{3}{section.2}%
+\contentsline {section}{\numberline {3}Resumo do Capítulo}{3}{section.3}%
