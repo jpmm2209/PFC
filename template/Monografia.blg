@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Monografia.aux
+A level-1 auxiliary file: Capa/capa.aux
+A level-1 auxiliary file: Resumo/Resumo.aux
+A level-1 auxiliary file: Agradecimentos/Agradecimentos.aux
+A level-1 auxiliary file: TabelaConteudo/TabelaConteudo.aux
+A level-1 auxiliary file: ListaFiguras/ListaFiguras.aux
+A level-1 auxiliary file: ListaTabelas/ListaTabelas.aux
+A level-1 auxiliary file: Introducao/Introducao.aux
+A level-1 auxiliary file: DescricaoProcesso/DescricaoProcesso.aux
+A level-1 auxiliary file: Metodologia/Metodologia.aux
+A level-1 auxiliary file: Resultados/Resultados.aux
+A level-1 auxiliary file: Conclusao/Conclusao.aux
+The style file: plain.bst
+Database file #1: telefonia.bib
+You've used 2 entries,
+            2118 wiz_defined-function locations,
+            694 strings with 6191 characters,
+and the built_in function-call counts, 517 in all, are:
+= -- 51
+> -- 14
+< -- 0
++ -- 6
+- -- 4
+* -- 29
+:= -- 95
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 23
+empty$ -- 47
+format.name$ -- 4
+if$ -- 105
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 3
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 9
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 13
+stack$ -- 0
+substring$ -- 29
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 0
+while$ -- 6
+width$ -- 3
+write$ -- 24
