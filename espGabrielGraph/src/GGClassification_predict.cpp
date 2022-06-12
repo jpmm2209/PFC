@@ -1,27 +1,31 @@
-// [[Rcpp::depends(RcppEigen)]]
 #include<Arduino.h>
 #include <ArduinoEigen.h>
 #include <vector>
 #include <cmath>
 
 using std::vector;
-using Rcpp::List;
 using Eigen::ArrayXXd;
 using Eigen::ArrayXd;
 using Eigen::ArrayXi;
 
 typedef Eigen::Map<ArrayXXd> MapArrayXXd;
 
+typedef struct{
+  ArrayXXd array_midpoints;
+  ArrayXXd array_w;
+  vector<double> vector_bias;
+  vector<int> labels;
+}ListTest;
 
-ArrayXi predict(List model, MapArrayXXd& X_array){
+ArrayXi predict(ListTest model, MapArrayXXd& X_array){
 
   // Receives the model created by model function and an unlabeled matrix of data.
   // Then it classifies the unlabeled data using the model parameters.
 
-  ArrayXXd array_midpoints = model["Midpoints"];
-  ArrayXXd array_w = model["W"];
-  vector<double> vector_bias =  model["Bias"];
-  vector<int> labels = model["Labels"];
+  ArrayXXd array_midpoints = model.array_midpoints;
+  ArrayXXd array_w = model.array_w;
+  vector<double> vector_bias =  model.vector_bias;
+  vector<int> labels = model.labels;
 
   int nrows = X_array.rows(); // Getting the dimensions of data
   int ncols = X_array.cols();

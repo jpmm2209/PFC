@@ -6,16 +6,19 @@
 
 using std::numeric_limits;
 using std::vector;
-using Rcpp::wrap;
-using Rcpp::stop;
-using Rcpp::List;
-using Rcpp::Named;
 using Eigen::ArrayXXd;
 using Eigen::ArrayXXi;
 using Eigen::ArrayXd;
 using Eigen::ArrayXi;
 using Eigen::VectorXi;
 using Eigen::Ref;
+
+typedef struct{
+  ArrayXXd array_midpoints;
+  ArrayXXd array_w;
+  vector<double> vector_bias;
+  vector<int> labels;
+}ListTest;
 
 typedef Eigen::Map<ArrayXXd> MapArrayXXd;
 
@@ -170,7 +173,7 @@ vector<int> FilterGraph(const ArrayXXi& array_of_adjacency, const vector<int>& v
 
 }
 
-List GetModelParams(const ArrayXXi& array_of_adjacency, const ArrayXXd& data, int nrows, int ncols, const vector<int>& vector_of_classes, const vector<int> labels){
+ListTest GetModelParams(const ArrayXXi& array_of_adjacency, const ArrayXXd& data, int nrows, int ncols, const vector<int>& vector_of_classes, vector<int> labels){
 
   // Extracts the parameters needed to classification of new data points, that will be
   // done by the predict function.
@@ -243,12 +246,15 @@ List GetModelParams(const ArrayXXi& array_of_adjacency, const ArrayXXd& data, in
     array_w.row(k) = vector_w[k];
   }
 
-  return List::create(
-    Named("Midpoints") = wrap(array_midpoints),
-    Named("W") = wrap(array_w),
-    Named("Bias") = wrap(vector_bias),
-    Named("Labels") = wrap(labels) // Auxiliar variable used in the predict function.
-  );
+  ListTest Lista;
+
+  Lista.array_midpoints = array_midpoints;
+  Lista.array_w = array_w;
+  Lista.vector_bias = vector_bias;
+  Lista.labels = labels;  // Auxiliar variable used in the predict function.
+
+  return Lista;
+
 }
 
 vector<int> VerificationOfParameters(const ArrayXXd& X, const vector<int> Y){
@@ -261,7 +267,8 @@ vector<int> VerificationOfParameters(const ArrayXXd& X, const vector<int> Y){
   int length_Y = Y.size();
 
   if( nrows_X != length_Y ){
-    stop("Error: The number of data elements(x) should be equal to the number of class labels(y).");
+    Serial.println("Error: The number of data elements(x) should be equal to the number of class labels(y).");
+    esp_restart();
   }
 
   vector<int> labels = Y;
@@ -271,14 +278,15 @@ vector<int> VerificationOfParameters(const ArrayXXd& X, const vector<int> Y){
 
   int number_of_labels = labels.size();
   if( number_of_labels  != 2 ){
-    stop("Error: The current classifier model only supports two labels of classes.");
+    Serial.println("Error: The current classifier model only supports two labels of classes.");
+    esp_restart();
   }
 
   return(labels);
 }
 
 // [[Rcpp::export]]
-List model(MapArrayXXd& X_array, vector<int>& Y, bool normalize=false){
+ListTest model(MapArrayXXd& X_array, vector<int>& Y, bool normalize=false){
 
   // Main function of the model.
   // It invokes all of the steps necessary to obtain the model, and returns it
@@ -298,7 +306,7 @@ List model(MapArrayXXd& X_array, vector<int>& Y, bool normalize=false){
 
   vector<int> index_of_element_to_remove = FilterGraph(gabriel_graph_unfiltered, Y, labels); // obtaining indexes of noises.
 
-  List final_model;
+  ListTest final_model;
 
   if(index_of_element_to_remove.empty()){ // No noise to filter.
 
