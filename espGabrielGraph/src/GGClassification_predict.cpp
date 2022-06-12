@@ -1,21 +1,12 @@
-#include<Arduino.h>
-#include <ArduinoEigen.h>
-#include <vector>
-#include <cmath>
+#include<GGClassification.h>
 
-using std::vector;
-using Eigen::ArrayXXd;
-using Eigen::ArrayXd;
-using Eigen::ArrayXi;
+// using std::vector;
+// using Eigen::ArrayXXd;
+// using Eigen::ArrayXd;
+// using Eigen::ArrayXi;
 
-typedef Eigen::Map<ArrayXXd> MapArrayXXd;
+// typedef Eigen::Map<ArrayXXd> MapArrayXXd;
 
-typedef struct{
-  ArrayXXd array_midpoints;
-  ArrayXXd array_w;
-  vector<double> vector_bias;
-  vector<int> labels;
-}ListTest;
 
 ArrayXi predict(ListTest model, MapArrayXXd& X_array){
 

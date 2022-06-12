@@ -1,8 +1,6 @@
-// [[Rcpp::depends(RcppEigen)]]
-#include<Arduino.h>
-#include <ArduinoEigen.h>
-#include <vector>
-#include <limits>
+
+#include<GGClassification.h>
+#include<GGClassification.h>
 
 using std::numeric_limits;
 using std::vector;
@@ -12,13 +10,6 @@ using Eigen::ArrayXd;
 using Eigen::ArrayXi;
 using Eigen::VectorXi;
 using Eigen::Ref;
-
-typedef struct{
-  ArrayXXd array_midpoints;
-  ArrayXXd array_w;
-  vector<double> vector_bias;
-  vector<int> labels;
-}ListTest;
 
 typedef Eigen::Map<ArrayXXd> MapArrayXXd;
 
@@ -286,7 +277,7 @@ vector<int> VerificationOfParameters(const ArrayXXd& X, const vector<int> Y){
 }
 
 // [[Rcpp::export]]
-ListTest model(MapArrayXXd& X_array, vector<int>& Y, bool normalize=false){
+ListTest model(MapArrayXXd& X_array, vector<int>& Y, bool normalize){ // normalize = false;
 
   // Main function of the model.
   // It invokes all of the steps necessary to obtain the model, and returns it

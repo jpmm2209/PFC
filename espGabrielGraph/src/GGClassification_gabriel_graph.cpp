@@ -1,4 +1,3 @@
-// [[Rcpp::depends(RcppEigen)]]
 #include<Arduino.h>
 #include <ArduinoEigen.h>
 #include <limits>
