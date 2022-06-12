@@ -1,0 +1,24 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[87] biber-darwin:340> INFO - === Thu Jun  9, 2022, 21:30:27
+[106] Biber.pm:418> INFO - Reading 'main.bcf'
+[214] Biber.pm:972> INFO - Found 6 citekeys in bib section 0
+[232] Biber.pm:4383> INFO - Processing section 0
+[246] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
+[248] bibtex.pm:1713> INFO - LaTeX decoding ...
+[261] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[315] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[315] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[315] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[315] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
+[325] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[326] bbl.pm:757> INFO - Output to main.bbl
+[327] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_4dWx/8fe4c9854184545302f21ebf0d47516c_19221.utf8, line 3, warning: 41 characters of junk seen at toplevel
+[327] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_4dWx/8fe4c9854184545302f21ebf0d47516c_19221.utf8, line 19, warning: 42 characters of junk seen at toplevel
+[327] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_4dWx/8fe4c9854184545302f21ebf0d47516c_19221.utf8, line 35, warning: 16 characters of junk seen at toplevel
+[327] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_4dWx/8fe4c9854184545302f21ebf0d47516c_19221.utf8, line 45, warning: 67 characters of junk seen at toplevel
+[327] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_4dWx/8fe4c9854184545302f21ebf0d47516c_19221.utf8, line 70, warning: 29 characters of junk seen at toplevel
+[327] Biber.pm:130> WARN - I didn't find a database entry for 'https://CRAN.R-project.org/package=GGClassification' (section 0)
+[327] Biber.pm:130> WARN - I didn't find a database entry for 'https://github.com/RcppCore/Rcpp' (section 0)
+[327] Biber.pm:130> WARN - I didn't find a database entry for 'https://eigen.tuxfamily.org/index.php?title=Main_Page' (section 0)
+[327] Biber.pm:132> INFO - WARNINGS: 8

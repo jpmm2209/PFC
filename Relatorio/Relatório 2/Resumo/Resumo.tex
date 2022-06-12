@@ -1,0 +1,17 @@
+\section{Resumo}
+
+Esse relatório tem como objetivo expor as pesquisas e atividades realizadas nessa segunda etapa do PFC1.
+Nesse projeto iremos implementar o grafo de Gabriel em um sistema embarcado e analisar sua performance. Caso essa etapa se concretize 
+um próximo passo será explorar uma aplicação desse algoritmo no embarcado. 
+
+O grafo de Gabriel\cite{GabrielGraph1} é um método de reconhecimento de padrões que separa regiões de dados de forma geométrica. O grafo foi 
+desenvolvido pela comunidade da UFMG e demonstrou boa acurácia e baixo uso de recursos computacionais.
+Por esse motivo foi escolhido como modelo de reconhecimento de padrões a ser utilizado.
+
+A ideia da aplicação a ser implementada é de construir um protótipo de um dispositivo wireless com bateria que possa 
+ser um objeto paupável e faça reconhecimento de padrões de movimento do objeto. Para isso será utilizado um microcontrolador ESP32 
+e um sensor acelerômetro MPU6050.
+
+Essa aplicação pode ser realizável com a utilização do grafo de Gabriel se mapearmos geometricamente os dados do sensor acelerometro por meio de uma
+série temporal da aquisição. Reconhecendo assim o movimento realizado em um certo espaço de tempo pré-definido.
+% \cite{LivroTexto}

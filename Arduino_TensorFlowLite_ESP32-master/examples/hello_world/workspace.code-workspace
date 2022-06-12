@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"name": "helloWorld",
+			"path": "../../../tflite-testing/helloWorld"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"list": "cpp",
+			"vector": "cpp"
+		}
+	}
+}
