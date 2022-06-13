@@ -3,6 +3,9 @@
 #include <ArduinoEigenDense.h>
 
 using namespace Eigen;
+extern Eigen::ArrayXXf X;
+extern vector<int> y;
+extern Eigen::ArrayXXf x_prd;
 
 void setup() {
     Serial.begin(9600);
@@ -47,8 +50,8 @@ void setup() {
 void loop()
 {
   
-  // ListTest mdl = model(X_train, y_train);
-  // ArrayXi prd = predict(mdl, X_test);
+  ListTest mdl = model(X, y);
+  ArrayXi prd = predict(mdl, x_prd);
 
 
   delay(1000);

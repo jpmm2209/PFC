@@ -16,7 +16,7 @@ using Eigen::ArrayXi;
 using Eigen::VectorXi;
 using Eigen::Ref;
 
-typedef Eigen::Map<ArrayXXd> MapArrayXXd;
+typedef Eigen::Map<ArrayXXd> MapArrayXXd;  // Array<double,Dynamic,Dynamic> = ArrayXXd
 
 typedef struct{
   ArrayXXd array_midpoints;
