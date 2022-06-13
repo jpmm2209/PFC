@@ -1,12 +1,5 @@
 #include<GGClassification.h>
 
-// using std::vector;
-// using Eigen::ArrayXXd;
-// using Eigen::ArrayXd;
-// using Eigen::ArrayXi;
-
-// typedef Eigen::Map<ArrayXXd> MapArrayXXd;
-
 
 ArrayXi predict(ListTest model, MapArrayXXd& X_array){
 

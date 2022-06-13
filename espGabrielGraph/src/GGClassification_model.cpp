@@ -1,17 +1,6 @@
 
 #include<GGClassification.h>
-#include<GGClassification.h>
 
-using std::numeric_limits;
-using std::vector;
-using Eigen::ArrayXXd;
-using Eigen::ArrayXXi;
-using Eigen::ArrayXd;
-using Eigen::ArrayXi;
-using Eigen::VectorXi;
-using Eigen::Ref;
-
-typedef Eigen::Map<ArrayXXd> MapArrayXXd;
 
 void RemoveArrayElementsByIndex(const ArrayXXd& data, int nrows, Ref<ArrayXXd> updated_data, vector<int> index_of_element_to_remove){
 
