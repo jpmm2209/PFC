@@ -1,27 +1,55 @@
 #include <Arduino.h>
-#include<GGClassification.h>
+#include <GGClassification.h>
+#include <ArduinoEigenDense.h>
 
+using namespace Eigen;
 
-void setup()
-{
-  Serial.begin(115200);
+void setup() {
+    Serial.begin(9600);
+    delay(2000);
+
+    MatrixXd m = MatrixXd::Random(3, 3);
+    m = (m + MatrixXd::Constant(3, 3, 1.2)) * 50;
+
+    Serial.println("m =");
+    Serial.print(m(0, 0));
+    Serial.print(" ");
+    Serial.print(m(0, 1));
+    Serial.print(" ");
+    Serial.print(m(0, 2));
+    Serial.println();
+    Serial.print(m(1, 0));
+    Serial.print(" ");
+    Serial.print(m(1, 1));
+    Serial.print(" ");
+    Serial.print(m(1, 2));
+    Serial.println();
+    Serial.print(m(2, 0));
+    Serial.print(" ");
+    Serial.print(m(2, 1));
+    Serial.print(" ");
+    Serial.print(m(2, 2));
+    Serial.println();
+
+    VectorXd v(3);
+    v << 1, 2, 3;
+    VectorXd vo = m * v;
+
+    Serial.println("m * v =");
+    Serial.print(vo(0));
+    Serial.println();
+    Serial.print(vo(1));
+    Serial.println();
+    Serial.print(vo(2));
+    Serial.println();
 }
 
 void loop()
 {
-  float number1 = random(100) / 100.0;
-  float number2 = random(100) / 100.0;
+  
+  // ListTest mdl = model(X_train, y_train);
+  // ArrayXi prd = predict(mdl, X_test);
 
-//   nn->getInputBuffer()[0] = number1;
-//   nn->getInputBuffer()[1] = number2;
-
-//   float result = nn->predict();
-
-  const char *expected = number2 > number1 ? "True" : "False";
-
-//   const char *predicted = result > 0.5 ? "True" : "False";
-
-//   Serial.printf("%.2f %.2f - result %.2f - Expected %s, Predicted %s\n", number1, number2, result, expected, predicted);
 
   delay(1000);
 }
