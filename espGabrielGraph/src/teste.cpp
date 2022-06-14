@@ -2,9 +2,9 @@
 #include <GGClassification.h>
 #include <ArduinoEigenDense.h>
 
-Eigen::ArrayXXf X(2, 50);
+Eigen::ArrayXXd X(2, 50);
 vector<int> y;
-Eigen::ArrayXXf x_prd(2, 50);
+Eigen::ArrayXXd x_prd(2, 50);
 
 void initValues()
 {

@@ -6,6 +6,9 @@
 #include <vector>
 #include <limits>
 #include <cmath>
+#include <ArduinoEigenDense.h>
+#include<ArduinoEigenSparse.h>
+
 
 using std::numeric_limits;
 using std::vector;
@@ -25,15 +28,15 @@ typedef struct{
   vector<int> labels;
 }ListTest;
 
-ArrayXi predict(ListTest model, MapArrayXXd& X_array);
+ArrayXi predict(ListTest model, ArrayXXd& X_array);
 void RemoveArrayElementsByIndex(const ArrayXXd& data, int nrows, Ref<ArrayXXd> updated_data, vector<int> index_of_element_to_remove);
 void RemoveVectorElementsByIndex(vector<int>& vector_of_classes, vector<int> index_of_element_to_remove);
 void GabrielGraph(const ArrayXXd& data, int nrows, Ref<ArrayXXi> array_of_adjacency);
 vector<int> FilterGraph(const ArrayXXi& array_of_adjacency, const vector<int>& vector_of_classes, const vector<int> labels);
 ListTest GetModelParams(const ArrayXXi& array_of_adjacency, const ArrayXXd& data, int nrows, int ncols, const vector<int>& vector_of_classes, vector<int> labels);
 vector<int> VerificationOfParameters(const ArrayXXd& X, const vector<int> Y);
-ListTest model(MapArrayXXd& X_array, vector<int>& Y, bool normalize=false);
-ListTest model(MapArrayXXd& X_array, vector<int>& Y, bool normalize);
+ListTest model(ArrayXXd& X_array, vector<int>& Y, bool normalize);
+void initValues();
 
 
 

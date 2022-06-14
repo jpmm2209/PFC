@@ -266,7 +266,7 @@ vector<int> VerificationOfParameters(const ArrayXXd& X, const vector<int> Y){
 }
 
 // [[Rcpp::export]]
-ListTest model(MapArrayXXd& X_array, vector<int>& Y, bool normalize){ // normalize = false;
+ListTest model(ArrayXXd& X_array, vector<int>& Y, bool normalize){ // normalize = false;
 
   // Main function of the model.
   // It invokes all of the steps necessary to obtain the model, and returns it

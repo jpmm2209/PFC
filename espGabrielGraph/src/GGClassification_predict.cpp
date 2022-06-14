@@ -1,7 +1,7 @@
 #include<GGClassification.h>
 
 
-ArrayXi predict(ListTest model, MapArrayXXd& X_array){
+ArrayXi predict(ListTest model, ArrayXXd& X_array){
 
   // Receives the model created by model function and an unlabeled matrix of data.
   // Then it classifies the unlabeled data using the model parameters.
@@ -24,6 +24,8 @@ ArrayXi predict(ListTest model, MapArrayXXd& X_array){
   ArrayXi vector_y(nrows);
   ArrayXd output(number_of_midpoints);
 
+/// --------------------------- O BUG TA AQUIII ---------------------------
+
   // Here begins the settings of classification.
   for(int i=0; i<number_of_midpoints; i++){
     decision_maker = (X_array.rowwise()*array_w.row(i)).rowwise().sum();
@@ -42,6 +44,7 @@ ArrayXi predict(ListTest model, MapArrayXXd& X_array){
     array_class.col(i) = (vector_class*array_distances.col(i));
   }
 
+/// --------------------------- </ O BUG TA AQUIII ---------------------------
 
   array_class_abs = array_class.abs();
 
