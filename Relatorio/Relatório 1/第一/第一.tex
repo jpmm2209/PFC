@@ -1,13 +1,13 @@
-\section{Introdução a Redes Neurais Artificiais}
+% \section{Introdução a Redes Neurais Artificiais}
 
-Estudos ao livro \emph{Redes neurais artificiais: teoria e aplicações} \cite{LivroTexto} 
-foram realizados de forma a gerar maior compreensão sobre o assunto. A princípio, foi estudado o primeiro
-modelo matemático de neurônios artificiais, o neurônio MCP\footcite{MCP: McCulloch-Pitts Neuron — Mankind's First Mathematical Model Of A Biological Neuron.}.
-Em seguida, implementados na linguagem python o modelo de neurônio de aproximação linear Adaline \footcite{Adaline: Adaptive Linear Neuron or later Adaptive Linear Element}
-e de um modelo de Adaline com uma função de ativação, tornando um neurônio classificador
-com melhores resultados quando comparado ao MCP,o neurônio de classificação Perceptron Simples.
-
-Entender o funcionamento do modelo computacional de um neurônio permite também melhor compreensão dos estudos de 
-redes de neurônios. Para a aplicação a ser desenvolvida a ideia inicial é de detecção facial por meio de reconhecimento de imagens. Portanto,
-estudos sobre redes neurais convolucionais (CNN)\footcite{CNN: Convolutional Neural Networks} estão sendo feitos por se tratar
-de um modelo de rede utilizado para tratamento de imagens.
+Dentre as soluções já existentes que serviram de inspiração temos o projeto Magic Wand desenvolvido pela comunidade do TensorFlow Lite para exemplificar o uso da biblioteca de Machine Learning para microcontroladores.
+Há também uma versão do autor andriyadi Andri (github: @andriyadi) \footcite{\url{https://github.com/andriyadi/MagicWand-TFLite-Arduino}} que faz 
+uma reformulação do exemplo Magic Wand implementado no framework de desenvolvimento para embarcados que pretendemos utilizar nesse trabalho PlatformIO.
+Ambos projetos serviram de inspiração para a aplicação escolhida por permitirem reconhecer padrões de movimento por meio de machine learning, porém o método implementado será outro.
+Enquanto esses projetos utilizam modelos de alto nível o objetivo nesse trabalho é de implementar as equações do algoritmo do Grafo de Gabriel utilizando bibliotecas de Álgebra Linear em C++.
+Na Plataforma CRAN\cite*{CRAN} há a implementação do grafo desenvolvido pela equipe do laboratório de inteligência computacional da UFMG para sua utilização no programa R\cite*{Rlanguage}. Esse algoritmo servirá como inspiração para
+a implementação do mesmo em C++ para embarcados.
+Já o artigo do autor Luiz Bambirra\cite*{LuizBambirra} demonstra e exemplifica o uso de Grafo de Gabriel para modelagem dos padrões de entrada nos problemas de classificação.
+O modelo é capaz de solucionar problemas de redes neurais que tem por objetivos encontrar uma solução  ótima para maior capacidade de generalização e menor complexidade do algoritmo.
+Sendo assim problemas classificados como multiobjetivos. Problemas assim costumam ter não só uma solução ótima, mas um conjuntode soluções ótimas, denominado conjunto Pareto-Ótimas(PO). 
+O algoritmo consiste nas etapas de construção geométrica do grafo sobre as amostras, remoção dos ruídos e, em seguida, detecção de bordas. Por fim, define-se a região de separação entre os conjuntos. A proposta desse trabalho é de realizar esse algoritmo no microcontrolador embarcado.

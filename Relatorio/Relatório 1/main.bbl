@@ -81,99 +81,62 @@
       \verb 10.1109/TII.2020.2987329
       \endverb
     \endentry
-    \entry{AlexAssis}{article}{}
-      \name{author}{5}{}{%
-        {{hash=1854faf5b220b4eb86406c54a5ec1897}{%
-           family={Assis},
-           familyi={A\bibinitperiod},
-           given={Alex\bibnamedelima D.},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=69a9d7b0688e511d25e77b040a87ae9c}{%
-           family={Torres},
-           familyi={T\bibinitperiod},
-           given={Luiz\bibnamedelimb C.\bibnamedelimi B.},
-           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=3c062bc2fb440c339230a67ef42f789f}{%
-           family={Araújo},
-           familyi={A\bibinitperiod},
-           given={Lourenço\bibnamedelimb R.\bibnamedelimi G.},
-           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=a9659b410983b09e723b220fd86d3d2d}{%
-           family={Hanriot},
-           familyi={H\bibinitperiod},
-           given={Vítor\bibnamedelima M.},
-           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=a243081f51bb80ebfac76b9368a0d1be}{%
-           family={Braga},
-           familyi={B\bibinitperiod},
-           given={Antonio\bibnamedelima P.},
-           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{e9c8a2ee8f0b0e015da645ff5d3476f1}
-      \strng{fullhash}{1fd81850e007fbd756bae242aa0d3d95}
-      \strng{bibnamehash}{e9c8a2ee8f0b0e015da645ff5d3476f1}
-      \strng{authorbibnamehash}{e9c8a2ee8f0b0e015da645ff5d3476f1}
-      \strng{authornamehash}{e9c8a2ee8f0b0e015da645ff5d3476f1}
-      \strng{authorfullhash}{1fd81850e007fbd756bae242aa0d3d95}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper presents the concept of Graph-based Local Resampling of perceptron-like neural networks with random projections (RN-ELM) which aims at regularization of the yielded model. The addition of synthetic noise to the learning set finds some similarity with data augmentation approaches that are currently adopted in many deep learning strategies. With the graph-based approach, however, it is possible to direct resample in the margin region instead of exhaustively cover the whole input space. The goal is to train neural networks with added noise in the margin region, located by structural information extracted from a planar graph. The so-called structural vectors, which are the training set vertices near the class boundary, are obtained from the structural information using Gabriel Graph. Synthetic samples are added to the learning set around the geometric vectors, improving generalization performance. A mathematical formulation that shows that the addition of synthetic samples has the same effect as the Tikhonov regularization is presented. Friedman and pos-hoc Nemenyi tests indicate that outcomes from the proposed method are statistically equivalent to the ones obtained by objective-function regularization, implying that both methods yield smoother solutions, reducing the effects of overfitting.}
-      \field{issn}{2169-3536}
-      \field{journaltitle}{IEEE Access}
-      \field{title}{Neural Networks Regularization With Graph-Based Local Resampling}
-      \field{volume}{9}
-      \field{year}{2021}
-      \field{pages}{50727\bibrangedash 50737}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1109/ACCESS.2021.3068127
-      \endverb
-    \endentry
-    \entry{LivroTexto}{book}{}
-      \name{author}{3}{}{%
-        {{hash=f3538a4d0634398da148515a2a9eb281}{%
-           family={Pádua\bibnamedelima Braga},
-           familyi={P\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=435eebe17dd468afd9a1e1114e8fbd8e}{%
-           family={Leon\bibnamedelimb Ferreira\bibnamedelima Carvalho},
-           familyi={L\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={A.C.P.},
-           giveni={A\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=75f0dbe76678182eb96b4c6a3d409338}{%
-           family={Ludermir},
+    \entry{CRAN}{manual}{}
+      \name{author}{2}{}{%
+        {{hash=b50b4a492c83ee0d01209c420d23300a}{%
+           family={Dietrich},
+           familyi={D\bibinitperiod},
+           given={Jan\bibnamedelima Philipp},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=029171f8fe652798013fc08e0c3bc2c2}{%
+           family={Leoncio},
            familyi={L\bibinitperiod},
-           given={T.B.},
-           giveni={T\bibinitperiod}}}%
+           given={Waldir},
+           giveni={W\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Livros Técnicos e Científicos}%
-      }
-      \strng{namehash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \strng{fullhash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \strng{bibnamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \strng{authorbibnamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \strng{authornamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \strng{authorfullhash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \strng{namehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{fullhash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{bibnamehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{authorbibnamehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{authornamehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{authorfullhash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9788521612186}
-      \field{title}{Redes neurais artificiais: teoria e aplicações}
-      \field{year}{2000}
+      \field{note}{R package version 0.6.2}
+      \field{title}{citation: Software Citation Tools}
+      \field{year}{2022}
+    \endentry
+    \entry{Rlanguage}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=dcdebb6b35bff7c0568bf8c50ef8626d}{%
+           family={{R Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{fullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{bibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorbibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authornamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorfullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2021}
       \verb{urlraw}
-      \verb https://books.google.com.br/books?id=cUgEaAEACAAJ
+      \verb https://www.R-project.org/
       \endverb
       \verb{url}
-      \verb https://books.google.com.br/books?id=cUgEaAEACAAJ
+      \verb https://www.R-project.org/
       \endverb
     \endentry
     \entry{LuizBambirra}{article}{}
@@ -250,15 +213,9 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer processors}
-  \missing{Adaline: Adaptive Linear Neuron or later Adaptive Linear Element}
-  \missing{CNN: Convolutional Neural Networks}
-  \missing{ESP-WHO: https://github.com/espressif/esp-who}
-  \missing{FPGA: Field-programmable gate array}
-  \missing{MCP: McCulloch-Pitts Neuron — Mankind's First Mathematical Model Of A Biological Neuron.}
-  \missing{Problemas multiobjetivo: Problemas com mais de um objetivo}
-  \missing{VHDL: VHSIC Hardware Description Language.}
-  \missing{espressif.com}
+  \missing{ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer programming.}
+  \missing{FPGA: Field-programmable gate array.}
+  \missing{\url {https://github.com/andriyadi/MagicWand-TFLite-Arduino}}
 \endrefsection
 \endinput
 

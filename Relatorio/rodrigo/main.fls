@@ -1,9 +1,9 @@
-PWD /Users/jota/Downloads/Exercício Latex - PFC1
+PWD /Users/jota/Documents/PFC/PFC/Relatorio/rodrigo
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.tex
-OUTPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.log
+INPUT /Users/jota/Documents/PFC/PFC/Relatorio/rodrigo/main.tex
+OUTPUT main.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
@@ -928,10 +928,10 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.aux
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.aux
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.aux
-OUTPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.aux
+INPUT ./main.aux
+INPUT main.aux
+INPUT main.aux
+OUTPUT main.aux
 INPUT /usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1003,8 +1003,8 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestri
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-OUTPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.out
-OUTPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.pdf
+OUTPUT main.out
+OUTPUT main.pdf
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -1012,12 +1012,12 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
-OUTPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.bcf
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/brasao_ufmg.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/brasao_ufmg.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/brasao_ufmg.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/brasao_ufmg.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/brasao_ufmg.png
+OUTPUT main.bcf
+INPUT ./images/brasao_ufmg.png
+INPUT ./images/brasao_ufmg.png
+INPUT images/brasao_ufmg.png
+INPUT ./images/brasao_ufmg.png
+INPUT ./images/brasao_ufmg.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -1065,17 +1065,17 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/input_image.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/input_image.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/input_image.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/input_image.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/input_image.png
+INPUT ./images/input_image.png
+INPUT ./images/input_image.png
+INPUT images/input_image.png
+INPUT ./images/input_image.png
+INPUT ./images/input_image.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/output_image.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/output_image.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/output_image.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/output_image.png
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/images/output_image.png
+INPUT ./images/output_image.png
+INPUT ./images/output_image.png
+INPUT images/output_image.png
+INPUT ./images/output_image.png
+INPUT ./images/output_image.png
 INPUT /usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
@@ -1088,11 +1088,11 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.aux
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.out
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.out
-INPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.run.xml
-OUTPUT /Users/jota/Downloads/Exercício Latex - PFC1/main.run.xml
+INPUT main.aux
+INPUT ./main.out
+INPUT ./main.out
+INPUT main.run.xml
+OUTPUT main.run.xml
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb

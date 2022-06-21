@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  1 JUN 2022 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  21 JUN 2022 20:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -418,7 +418,9 @@ Package: moredefs 2001/08/31 v1.8 more defining commands (Frankenstein's brain)
 )
 \nc@toks@a=\toks20
 \c@IncludeDepth=\count400
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/frankenstein/tag.sto)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/frankenstein/tag.sto) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
@@ -428,24 +430,24 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
  (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count403
@@ -461,7 +463,13 @@ LaTeX Font Info:    ... okay on input line 13.
 \everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
@@ -471,7 +479,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
-Package hyperref Info: Link coloring ON on input line 13.
+Package hyperref Info: Link coloring ON on input line 15.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -481,25 +489,25 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count409
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 13.
-Package microtype Info: Applying patch `item' on input line 13.
-Package microtype Info: Applying patch `toc' on input line 13.
-Package microtype Info: Applying patch `eqnum' on input line 13.
-Package microtype Info: Applying patch `footnote' on input line 13.
+LaTeX Info: Redefining \microtypecontext on input line 15.
+Package microtype Info: Applying patch `item' on input line 15.
+Package microtype Info: Applying patch `toc' on input line 15.
+Package microtype Info: Applying patch `eqnum' on input line 15.
+Package microtype Info: Applying patch `footnote' on input line 15.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 13.
+LaTeX Info: Redefining \showhyphens on input line 15.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -522,71 +530,29 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer processors
+(biblatex)                ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer programming.
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Adaline: Adaptive Linear Neuron or later Adaptive Linear Element
+(biblatex)                FPGA: Field-programmable gate array.
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                CNN: Convolutional Neural Networks
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ESP-WHO: https://github.com/espressif/esp-who
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                FPGA: Field-programmable gate array
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                MCP: McCulloch-Pitts Neuron — Mankind's First Mathematical Model Of A Biological Neuron.
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Problemas multiobjetivo: Problemas com mais de um objetivo
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                VHDL: VHSIC Hardware Description Language.
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                espressif.com
+(biblatex)                \url {https://github.com/andriyadi/MagicWand-TFLite-Arduino}
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 13.
-Package biblatex Info: Reference segment=0 on input line 13.
+Package biblatex Info: Reference section=0 on input line 15.
+Package biblatex Info: Reference segment=0 on input line 15.
  (./Capa/capa.tex
-<images/brasao_ufmg.png, id=20, 225.84375pt x 225.84375pt>
+<images/brasao_ufmg.png, id=4, 225.84375pt x 225.84375pt>
 File: images/brasao_ufmg.png Graphic file (type png)
 <use images/brasao_ufmg.png>
 Package pdftex.def Info: images/brasao_ufmg.png  used on input line 11.
@@ -594,108 +560,71 @@ Package pdftex.def Info: images/brasao_ufmg.png  used on input line 11.
  [1
 
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/brasao_ufmg.png>]) (./main.toc)
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.21 \clearpage
-                [1
-
-
-
-] (./Resumo/Resumo.tex) (./第一/第一.tex
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/brasao_ufmg.png>]) (./Resumo/Resumo.tex) (./第一/第一.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
+(Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
+(Font)              <5> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
+(Font)              <6> on input line 4.
 
 
-LaTeX Warning: Citation 'MCP: McCulloch-Pitts Neuron — Mankind's First Mathematical Model Of A Biological Neuron.' on page 2 undefined on input line 5.
-
-Missing character: There is no � in font cmbx8!
-Missing character: There is no � in font cmbx8!
-Missing character: There is no � in font cmbx8!
-
-Overfull \hbox (82.45012pt too wide) in paragraph at lines 5--5
-[][][][]\OT1/cmr/m/n/8 (-20) .| 
- []
-
-
-LaTeX Warning: Citation 'Adaline: Adaptive Linear Neuron or later Adaptive Linear Element' on page 2 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'CNN: Convolutional Neural Networks' on page 2 undefined on input line 12.
+LaTeX Warning: Citation '\url {https://github.com/andriyadi/MagicWand-TFLite-Arduino}' on page 1 undefined on input line 4.
 
 ) (./第二/第二.tex
 
-LaTeX Warning: Citation 'espressif.com' on page 2 undefined on input line 3.
+LaTeX Warning: Citation 'FPGA: Field-programmable gate array.' on page 1 undefined on input line 3.
 
 
-LaTeX Warning: Citation 'ESP-WHO: https://github.com/espressif/esp-who' on page 2 undefined on input line 8.
-
-) [2
-
-] (./第三/第三.tex
-
-LaTeX Warning: Citation 'Problemas multiobjetivo: Problemas com mais de um objetivo' on page 3 undefined on input line 7.
-
-<images/GabrielGraph.png, id=64, 350.30875pt x 277.035pt>
-File: images/GabrielGraph.png Graphic file (type png)
-<use images/GabrielGraph.png>
-Package pdftex.def Info: images/GabrielGraph.png  used on input line 19.
-(pdftex.def)             Requested size: 175.15395pt x 138.51715pt.
-
-LaTeX Warning: Citation 'FPGA: Field-programmable gate array' on page 3 undefined on input line 25.
+LaTeX Warning: Citation 'ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer programming.' on page 1 undefined on input line 6.
 
 
-LaTeX Warning: Citation 'VHDL: VHSIC Hardware Description Language.' on page 3 undefined on input line 27.
-
-[3
-
- <./images/GabrielGraph.png>]
-
-LaTeX Warning: Citation 'ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer processors' on page 4 undefined on input line 30.
-
-
-Overfull \hbox (166.41084pt too wide) in paragraph at lines 30--30
-[][][][]\OT1/cmr/m/n/8 (-20) .| 
+Overfull \hbox (182.45064pt too wide) in paragraph at lines 6--6
+[][][][]\T1/cmr/m/n/8 (-20) .| 
  []
 
-) [4]
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 
+      [1
+
+
+
+
+]
+No file 第三/第三.tex.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 68.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
+(microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [5
-
-] (./main.aux)
+ [2] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C98A66B0D92B1A92452B739D6ABEBB9C;615.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18709 strings out of 478268
- 331128 string characters out of 5846347
- 1090368 words of memory out of 5000000
- 36582 multiletter control sequences out of 15000+600000
- 476564 words of font info for 95 fonts, out of 8000000 for 9000
+ 18918 strings out of 478268
+ 335431 string characters out of 5846347
+ 1092316 words of memory out of 5000000
+ 36795 multiletter control sequences out of 15000+600000
+ 483137 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,68p,1474b,1722s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (6 pages, 249823 bytes).
+ 60i,8n,68p,1162b,1661s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on main.pdf (3 pages, 241638 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 25131 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 33286 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -1,8 +1,8 @@
-PWD /Users/jota/Desktop/PFC/PFC/template
+PWD /Users/jota/Documents/PFC/PFC/Relatorio/template
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/jota/Desktop/PFC/PFC/template/Monografia.tex
+INPUT /Users/jota/Documents/PFC/PFC/Relatorio/template/Monografia.tex
 OUTPUT Monografia.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/book.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/book.cls
@@ -545,8 +545,6 @@ INPUT ./Resultados/ciclodesenvolvimento.eps
 INPUT ./Resultados/ciclodesenvolvimento-eps-converted-to.pdf
 INPUT ./Resultados/ciclodesenvolvimento-eps-converted-to.pdf
 INPUT ./Resultados/ciclodesenvolvimento.eps
-INPUT ./Resultados/ciclodesenvolvimento-eps-converted-to.pdf
-INPUT ./Resultados/ciclodesenvolvimento-eps-converted-to.pdf
 INPUT ./Resultados/ciclodesenvolvimento-eps-converted-to.pdf
 INPUT ./Resultados/ciclodesenvolvimento-eps-converted-to.pdf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  12 MAY 2022 11:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  21 JUN 2022 18:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/jota/Desktop/PFC/PFC/template/Monografia.tex
-(/Users/jota/Desktop/PFC/PFC/template/Monografia.tex
+**/Users/jota/Documents/PFC/PFC/Relatorio/template/Monografia.tex
+(/Users/jota/Documents/PFC/PFC/Relatorio/template/Monografia.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
@@ -370,14 +370,14 @@ Package epstopdf Info: Source file: <Resultados/ciclodesenvolvimento.eps>
 (epstopdf)                    date: 2022-05-12 11:22:18
 (epstopdf)                    size: 1022324 bytes
 (epstopdf)             Output file: <Resultados/ciclodesenvolvimento-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-05-12 09:45:44
+(epstopdf)                    date: 2022-05-12 11:18:11
 (epstopdf)                    size: 49884 bytes
 (epstopdf)             Command: <repstopdf --outfile=Resultados/ciclodesenvolvimento-eps-converted-to.pdf Resultados/ciclodesenvolvimento.eps>
 (epstopdf)             \includegraphics on input line 13.
 runsystem(repstopdf --outfile=Resultados/ciclodesenvolvimento-eps-converted-to.pdf Resultados/ciclodesenvolvimento.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <Resultados/ciclodesenvolvimento-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-05-12 11:18:11
+(epstopdf)                    date: 2022-06-21 18:02:32
 (epstopdf)                    size: 49884 bytes.
 <Resultados/ciclodesenvolvimento-eps-converted-to.pdf, id=62, 302.12875pt x 259.97125pt>
 File: Resultados/ciclodesenvolvimento-eps-converted-to.pdf Graphic file (type pdf)
@@ -388,14 +388,14 @@ Package epstopdf Info: Source file: <Metodologia/ciclodesenvolvimento.eps>
 (epstopdf)                    date: 2022-05-12 11:22:18
 (epstopdf)                    size: 1022324 bytes
 (epstopdf)             Output file: <Metodologia/ciclodesenvolvimento-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-05-12 09:45:44
+(epstopdf)                    date: 2022-05-12 11:18:11
 (epstopdf)                    size: 49884 bytes
 (epstopdf)             Command: <repstopdf --outfile=Metodologia/ciclodesenvolvimento-eps-converted-to.pdf Metodologia/ciclodesenvolvimento.eps>
 (epstopdf)             \includegraphics on input line 34.
 runsystem(repstopdf --outfile=Metodologia/ciclodesenvolvimento-eps-converted-to.pdf Metodologia/ciclodesenvolvimento.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <Metodologia/ciclodesenvolvimento-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-05-12 11:18:11
+(epstopdf)                    date: 2022-06-21 18:02:32
 (epstopdf)                    size: 49884 bytes.
 <Metodologia/ciclodesenvolvimento-eps-converted-to.pdf, id=63, 302.12875pt x 259.97125pt>
 File: Metodologia/ciclodesenvolvimento-eps-converted-to.pdf Graphic file (type pdf)
@@ -417,15 +417,11 @@ Package epstopdf Info: Source file: <Resultados/ciclodesenvolvimento.eps>
 (epstopdf)                    date: 2022-05-12 11:22:18
 (epstopdf)                    size: 1022324 bytes
 (epstopdf)             Output file: <Resultados/ciclodesenvolvimento-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-05-12 11:18:11
+(epstopdf)                    date: 2022-06-21 18:02:32
 (epstopdf)                    size: 49884 bytes
 (epstopdf)             Command: <repstopdf --outfile=Resultados/ciclodesenvolvimento-eps-converted-to.pdf Resultados/ciclodesenvolvimento.eps>
 (epstopdf)             \includegraphics on input line 20.
-runsystem(repstopdf --outfile=Resultados/ciclodesenvolvimento-eps-converted-to.pdf Resultados/ciclodesenvolvimento.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <Resultados/ciclodesenvolvimento-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-05-12 11:18:11
-(epstopdf)                    size: 49884 bytes.
+Package epstopdf Info: Output file is already uptodate.
 File: Resultados/ciclodesenvolvimento-eps-converted-to.pdf Graphic file (type pdf)
 <use Resultados/ciclodesenvolvimento-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/ciclodesenvolvimento-eps-converted-to.pdf  used on input line 20.
@@ -449,14 +445,14 @@ Cap\'{\i }tulo 5.
 ]) [15] (./Monografia.aux (./Capa/capa.aux) (./Resumo/Resumo.aux) (./Agradecimentos/Agradecimentos.aux) (./TabelaConteudo/TabelaConteudo.aux) (./ListaFiguras/ListaFiguras.aux) (./ListaTabelas/ListaTabelas.aux) (./Introducao/Introducao.aux) (./DescricaoProcesso/DescricaoProcesso.aux) (./Metodologia/Metodologia.aux) (./Resultados/Resultados.aux) (./Conclusao/Conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
  4661 strings out of 478268
- 81086 string characters out of 5846347
+ 81122 string characters out of 5846347
  392712 words of memory out of 5000000
  22703 multiletter control sequences out of 15000+600000
  502564 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,689b,275s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,8n,62p,701b,275s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Monografia.pdf (29 pages, 187957 bytes).
+Output written on Monografia.pdf (29 pages, 187958 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream

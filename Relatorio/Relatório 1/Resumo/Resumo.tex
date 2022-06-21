@@ -1,7 +1,13 @@
-\section{Resumo}
+% \section{Resumo}
 
-Com o objetivo de concretizar estudos nas áres de Redes Neurais Artificiais e
-em Arquitetura e Organização de Computadores esse projeto final de curso tem por finalizade
-implementar uma rede neural em um módulo microcontrolador ESP32 de arquitetura ARM.
+Com o objetivo de concretizar estudos nas áreas de Redes Neurais Artificiais e
+em Arquitetura e Organização de Computadores esse projeto final de curso tem por finalidade
+implementar um algoritmo de reconhecimento de padrões para solucionar alguma aplicação prática utilizando um microcontrolador.
+O algoritmo selecionado é o Grafo de Gabriel\cite{GabrielGraph1} e o hardware utilizado será um microcontrolador ESP32. O grafo foi 
+desenvolvido pela comunidade da UFMG e demonstrou boa acurácia e baixo uso de recursos computacionais para separa regiões de dados por método geométrico.
+A ideia da aplicação a ser implementada é de construir um protótipo de um dispositivo wireless com bateria que possa 
+ser um objeto paupável e faça reconhecimento de padrões de movimento do objeto. Para isso será utilizado um microcontrolador ESP32 
+e um sensor acelerômetro MPU6050. A aplicação pode ser realizável com a utilização do grafo de Gabriel se mapearmos geometricamente os dados do sensor acelerômetro por meio de uma
+série temporal da aquisição. Reconhecendo assim o movimento realizado em um certo espaço de tempo pré-definido.
 
-% \cite{LivroTexto}
+

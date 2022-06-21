@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  12 MAY 2022 09:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  21 JUN 2022 18:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/jota/Downloads/Exercício Latex - PFC1/main.tex"
-(/Users/jota/Downloads/Exercício Latex - PFC1/main.tex
+**/Users/jota/Documents/PFC/PFC/Relatorio/rodrigo/main.tex
+(/Users/jota/Documents/PFC/PFC/Relatorio/rodrigo/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -695,7 +695,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
- (/Users/jota/Downloads/Exercício Latex - PFC1/main.aux)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -875,7 +875,7 @@ LaTeX Warning: Reference `eq:erosion' on page 1 undefined on input line 65.
 
 [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/jota/Downloads/Exercício Latex - PFC1/images/brasao_ufmg.png> </Users/jota/Downloads/Exercício Latex - PFC1/images/input_image.png> </Users/jota/Downloads/Exercício Latex - PFC1/images/output_image.png>]
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/brasao_ufmg.png> <./images/input_image.png> <./images/output_image.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
@@ -886,7 +886,7 @@ LaTeX Warning: Citation 'morpho' on page 2 undefined on input line 78.
 
 LaTeX Warning: Reference `fig:detec_quinas' on page 2 undefined on input line 78.
 
-/Users/jota/Downloads/Exercício Latex - PFC1/main.tex:94: Misplaced \noalign.
+/Users/jota/Documents/PFC/PFC/Relatorio/rodrigo/main.tex:94: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
 l.94 \end{tabularx}
@@ -894,7 +894,7 @@ l.94 \end{tabularx}
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/Users/jota/Downloads/Exercício Latex - PFC1/main.tex:94: Misplaced \noalign.
+/Users/jota/Documents/PFC/PFC/Relatorio/rodrigo/main.tex:94: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
 l.94 \end{tabularx}
@@ -902,7 +902,7 @@ l.94 \end{tabularx}
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/Users/jota/Downloads/Exercício Latex - PFC1/main.tex:94: Misplaced \noalign.
+/Users/jota/Documents/PFC/PFC/Relatorio/rodrigo/main.tex:94: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
 l.94 \end{tabularx}
@@ -913,7 +913,7 @@ an alignment. Proceed, and I'll ignore this case.
 
 LaTeX Warning: Empty bibliography on input line 96.
 
-[2] (/Users/jota/Downloads/Exercício Latex - PFC1/main.aux)
+[2] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -939,14 +939,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  25490 strings out of 478268
- 444196 string characters out of 5846347
+ 443928 string characters out of 5846347
  1199901 words of memory out of 5000000
  43289 multiletter control sequences out of 15000+600000
  484796 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,9n,131p,1177b,1680s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on "/Users/jota/Downloads/Exercício Latex - PFC1/main.pdf" (2 pages, 214932 bytes).
+Output written on main.pdf (2 pages, 215443 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
