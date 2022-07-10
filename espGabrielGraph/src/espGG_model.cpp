@@ -1,5 +1,5 @@
 
-#include<GGClassification.h>
+#include <espGG.h>
 
 
 void RemoveArrayElementsByIndex(const ArrayXXd& data, int nrows, Ref<ArrayXXd> updated_data, vector<int> index_of_element_to_remove){

@@ -1,4 +1,4 @@
-#include <GGClassification.h>
+#include <espGG.h>
 
 ArrayXi predict(ListTest model, const ArrayXXd &X_array)
 {

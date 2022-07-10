@@ -1,4 +1,4 @@
-#include <GGClassification.h>
+#include <espGG.h>
 
 
 void printArrayXXd(ArrayXXd &array, String arrayName)

@@ -43,6 +43,7 @@ void initValues();
 void printArrayXXd(ArrayXXd &array, String arrayName);
 void printVector(vector<int> &array, String arrayName);
 void printArrayXi(ArrayXi &array, String arrayName);
+float testAccuracy(vector<int> &y_hat, ArrayXi &y);
 
 
 
