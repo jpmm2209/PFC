@@ -16,10 +16,13 @@ using Eigen::ArrayXXd;
 using Eigen::ArrayXXi;
 using Eigen::ArrayXd;
 using Eigen::ArrayXi;
+using Eigen::MatrixXd;
 using Eigen::VectorXi;
 using Eigen::Ref;
+using Eigen::VectorwiseOp;
 
 typedef Eigen::Map<ArrayXXd> MapArrayXXd;  // Array<double,Dynamic,Dynamic> = ArrayXXd
+typedef Eigen::Map<ArrayXd> MapArrayXd;  // Array<double,Dynamic,Dynamic> = ArrayXd
 
 typedef struct{
   ArrayXXd array_midpoints;
@@ -28,7 +31,7 @@ typedef struct{
   vector<int> labels;
 }ListTest;
 
-ArrayXi predict(ListTest model, ArrayXXd& X_array);
+ArrayXi predict(ListTest model,const ArrayXXd& X_array);
 void RemoveArrayElementsByIndex(const ArrayXXd& data, int nrows, Ref<ArrayXXd> updated_data, vector<int> index_of_element_to_remove);
 void RemoveVectorElementsByIndex(vector<int>& vector_of_classes, vector<int> index_of_element_to_remove);
 void GabrielGraph(const ArrayXXd& data, int nrows, Ref<ArrayXXi> array_of_adjacency);
