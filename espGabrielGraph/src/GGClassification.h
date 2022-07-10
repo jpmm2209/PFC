@@ -40,6 +40,9 @@ ListTest GetModelParams(const ArrayXXi& array_of_adjacency, const ArrayXXd& data
 vector<int> VerificationOfParameters(const ArrayXXd& X, const vector<int> Y);
 ListTest model(ArrayXXd& X_array, vector<int>& Y, bool normalize);
 void initValues();
+void printArrayXXd(ArrayXXd &array, String arrayName);
+void printVector(vector<int> &array, String arrayName);
+void printArrayXi(ArrayXi &array, String arrayName);
 
 
 
