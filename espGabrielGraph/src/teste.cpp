@@ -2,12 +2,12 @@
 #include <GGClassification.h>
 #include <ArduinoEigenDense.h>
 
-Eigen::ArrayXXd X(2, 50);
+Eigen::ArrayXXd X(50, 2);
 vector<int> y;
 vector<int> y_train;
-Eigen::ArrayXXd x_prd(2, 50);
-Eigen::ArrayXXd X_train(2,70);
-Eigen::ArrayXXd X_test(2,30);
+Eigen::ArrayXXd x_prd(50, 2);
+Eigen::ArrayXXd X_train(70, 2);
+Eigen::ArrayXXd X_test(30, 2);
 
 void initValues()
 {

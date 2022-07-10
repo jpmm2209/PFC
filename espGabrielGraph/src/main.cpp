@@ -2,9 +2,9 @@
 #include <GGClassification.h>
 
 using namespace Eigen;
-extern ArrayXXd X;
-extern vector<int> y;
-extern ArrayXXd x_prd;
+extern ArrayXXd X_test;
+extern ArrayXXd X_train;
+extern vector<int> y_train;
 
 void setup()
 {
@@ -14,19 +14,16 @@ void setup()
 	initValues();
 	delay(2000);
 
-	ArrayXXd Xi = X.transpose();
-	ArrayXXd Xtest = x_prd.transpose();
-
-	printArrayXXd(Xi, "Xi");
-	printArrayXXd(Xtest, "Xtest");
-	printVector(y, "y");
+	printArrayXXd(X_train, "X_train");
+	printArrayXXd(X_test, "X_test");
+	printVector(y_train, "y_train");
 	
 	// Model
-	ListTest mdl = model(Xi, y, false);
+	ListTest mdl = model(X_train, y_train, false);
 	Serial.println("Model Done!");
 
 	// Predict
-	ArrayXi prd = predict(mdl, Xtest);
+	ArrayXi prd = predict(mdl, X_test);
 	Serial.println("Predict Done!");
 	printArrayXi(prd, "Prediction");
 }
