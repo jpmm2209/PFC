@@ -31,8 +31,6 @@ ArrayXi predict(ListTest model, const ArrayXXd &X_array)
 		decision_maker = ((X_array.rowwise().operator*(array_w.row(i))).rowwise().sum());
 		decision_maker = (decision_maker - vector_bias[i]);
 
-		Serial.println("Passou aQUI 1");
-
 		for (int j = 0; j < nrows; j++)
 		{
 			if (tanh(decision_maker(j)) > 0)
