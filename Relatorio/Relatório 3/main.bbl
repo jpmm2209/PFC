@@ -1,0 +1,112 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{CRAN}{manual}{}
+      \name{author}{2}{}{%
+        {{hash=b50b4a492c83ee0d01209c420d23300a}{%
+           family={Dietrich},
+           familyi={D\bibinitperiod},
+           given={Jan\bibnamedelima Philipp},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=029171f8fe652798013fc08e0c3bc2c2}{%
+           family={Leoncio},
+           familyi={L\bibinitperiod},
+           given={Waldir},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{fullhash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{bibnamehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{authorbibnamehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{authornamehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{authorfullhash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 0.6.2}
+      \field{title}{citation: Software Citation Tools}
+      \field{year}{2022}
+    \endentry
+    \entry{Rlanguage}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=dcdebb6b35bff7c0568bf8c50ef8626d}{%
+           family={{R Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{fullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{bibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorbibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authornamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorfullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.R-project.org/
+      \endverb
+    \endentry
+    \entry{GabrielGraph1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 12-May-2022]}
+      \field{title}{Gabriel graph --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Gabriel_graph&oldid=1087461346
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Gabriel_graph&oldid=1087461346
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{https://CRAN.R-project.org/package=GGClassification}
+  \missing{https://eigen.tuxfamily.org/index.php?title=Main_Page}
+  \missing{https://github.com/RcppCore/Rcpp}
+\endrefsection
+\endinput
+
