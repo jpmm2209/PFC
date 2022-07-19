@@ -1,16 +1,15 @@
 \pagebreak
-\section{GGClassification}
+\section{Etapa Atual}
 
-A equipe do laboratório de Inteligência Artificial da escola de engenharia desenvolveu uma biblioteca
-em R\cite*{Rlanguage} disponível na plataforma CRAN\cite*{CRAN} para a implementação do grafo de Gabriel chamada GGClassification\footcite{https://CRAN.R-project.org/package=GGClassification}.
+No momento, com o auxílio do professor orientador estudei conteúdos relacionado ao uso de dados de acelerômetro
+em reconhecimento de padrões.
+Dentre esses materiais temos a base de dados de um acelerômetro\cite{AccelerometerData} no repositório da UCI para predizer sobre vibração de máquinas elétricas, o qual estou tentando implementar no espGG. 
 
-A biblioteca foi implementada na linguagem C++ e utiliza a biblioteca Rcpp\footcite{https://github.com/RcppCore/Rcpp} para criar uma interface entre 
-R e C++. O código fonte da biblioteca pode ser encontrado no git:
+% Na tentativa de implementar essa base de dados no algoritmo espGG me deparei com alguns problemas. Primeiramente, o
+% código em C++ utiliza a variável ArrayXXd da biblioteca Eigen para os cálculos internos. Porém esse tipo de variável suporta
+% apenas dados de entrada de dimensão 2. Os dados de acelerômetro disponibilizados nessa base apresenta dimensão 3, sendo eles a aceleração
+% nos eixos x,y e z.
 
-\url{https://github.com/cran/GGClassification/blob/master/src/GGClassification_model.cpp}
-
-O código em C++ utiliza funções de álgebra linear Eigen.h\footcite{https://eigen.tuxfamily.org/index.php?title=Main_Page}
-e para exportar dados para o R utiliza a biblioteca Rcpp.
-
-
+Um ponto de atenção é com relação à memória e processamento limitados do microcontrolador. Por esse motivo uma etapa importante do trabalho
+será a de realizar o pré-processamento dos dados de forma a otimizar o algoritmo e reduzir a necessidade desses recursos.
 

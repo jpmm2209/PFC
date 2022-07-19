@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1657497674 "main.bcf" "main.bbl" "main" 1657498128
-  "main.bcf" 1657498128 108080 17fcb6f3e0def61385e4a5487a2ece60 "pdflatex"
-  "refs.bib" 1657497112 6042 206c0bbae011f1cf1d3ebbeabeecc8db ""
+["biber main"] 1658183101 "main.bcf" "main.bbl" "main" 1658188384
+  "main.bcf" 1658188384 107740 11622e34285dc72757ae28957b5f5ea1 "pdflatex"
+  "refs.bib" 1658176003 6471 deed18629eb29c1cebfc9ba0db2e2498 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1657498127 "/Users/jota/Documents/PFC/PFC/Relatorio/Relatório 3/main.tex" "main.pdf" "main" 1657498128
+["pdflatex"] 1658188383 "/Users/jota/Documents/PFC/PFC/Relatorio/Relatório 3/main.tex" "main.pdf" "main" 1658188384
   "/Users/jota/Documents/PFC/PFC/Relatorio/Relatório 3/main.tex" 1657497112 1950 818327defe8dd5d0981cff0f615670db ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -105,19 +105,19 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1652357182 2826451 57dffc27b2ff4f0b9fce887d4a8be172 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Capa/capa.tex" 1657497207 1122 bdffb710ee961ccc323cc2c9f2492f36 ""
-  "Resumo/Resumo.tex" 1657497287 1052 269251adccc0731d5bad36fe4b6ddab5 ""
+  "Capa/capa.tex" 1658188383 1122 bdffb710ee961ccc323cc2c9f2492f36 ""
+  "Resumo/Resumo.tex" 1658188260 1036 b489c62694e4345a1e3dc8e672f008c1 ""
   "images/brasao_ufmg.png" 1657497112 9941 338739bbae18cb898c0bf2526869ace0 ""
   "images/espGGserial.png" 1657497990 33506 90f6b11651a0f8d8f21c3f154235e440 ""
-  "main.aux" 1657498128 22056 d8fc485a91b34a73b3b902bd586eb4d9 "pdflatex"
-  "main.bbl" 1657497677 4153 c38aec713124a98eb105f7b1e0713907 "biber main"
-  "main.out" 1657498128 388 b78d9f9e940ecc3e329af8b441878988 "pdflatex"
-  "main.run.xml" 1657498128 2301 b072550c06ee518f76809c9dd1e1de46 "pdflatex"
+  "main.aux" 1658188384 21741 85697225f353050442b74349b539f19b "pdflatex"
+  "main.bbl" 1658183103 6441 b1b98ee99f49fa1cfcb01b9fd1ce9e72 "biber main"
+  "main.out" 1658188384 366 096eb9309b2b8b5366c31f79646f88d9 "pdflatex"
+  "main.run.xml" 1658188384 2301 b072550c06ee518f76809c9dd1e1de46 "pdflatex"
   "main.tex" 1657497112 1950 818327defe8dd5d0981cff0f615670db ""
-  "main.toc" 1657498128 299 4d241783e1494ef8032cf64f17875b08 "pdflatex"
-  "第一/第一.tex" 1657498125 1089 b387d6ae75a41020beeb860e2360f079 ""
-  "第三/第三.tex" 1657497112 713 5939f789fff852aab66b757aed693f37 ""
-  "第二/第二.tex" 1657497112 836 5ff3ca17f6b32cd7ae1c5bdf154a10ba ""
+  "main.toc" 1658188384 294 312931730dc9d5c1935d7adf1cf1e17c "pdflatex"
+  "第一/第一.tex" 1658183906 1627 b2555d71cc0aab866a518fcf1292efbe ""
+  "第三/第三.tex" 1658183656 377 9b7be582c0eb8a6988eca74e76a05468 ""
+  "第二/第二.tex" 1658183778 1083 30073e6ad924f6193c46915198089e22 ""
   (generated)
   "main.aux"
   "main.bcf"

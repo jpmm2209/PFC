@@ -77,6 +77,66 @@
       \verb https://www.R-project.org/
       \endverb
     \endentry
+    \entry{AccelerometerData}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7d61c356b2c09aacb14c66beadd77a7d}{%
+           family={Sampaio},
+           familyi={S\bibinitperiod},
+           given={Gustavo\bibnamedelima Scalabrini},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4c3fd6e78a91112bc91478070847e40c}{%
+           family={Aguiar\bibnamedelimb Vallim\bibnamedelima Filho},
+           familyi={A\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Arnaldo\bibnamedelima Rabello},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=a933659ca759d39cdafb2d4ecca23359}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Leilton\bibnamedelima Santos},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=7a229cb22d66dc30df24b03dab58250d}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Leandro\bibnamedelima Augusto},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{MDPI} {AG}}%
+      }
+      \strng{namehash}{e07e4462d3080d11eabedecb781177bf}
+      \strng{fullhash}{a168f3a0804aaaab576c72f8b8081d5f}
+      \strng{bibnamehash}{e07e4462d3080d11eabedecb781177bf}
+      \strng{authorbibnamehash}{e07e4462d3080d11eabedecb781177bf}
+      \strng{authornamehash}{e07e4462d3080d11eabedecb781177bf}
+      \strng{authorfullhash}{a168f3a0804aaaab576c72f8b8081d5f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{month}{10}
+      \field{number}{19}
+      \field{title}{Prediction of Motor Failure Time Using An Artificial Neural Network}
+      \field{volume}{19}
+      \field{year}{2019}
+      \field{pages}{4342}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s19194342
+      \endverb
+      \verb{urlraw}
+      \verb [Web Link]
+      \endverb
+      \verb{url}
+      \verb [Web%20Link]
+      \endverb
+    \endentry
     \entry{GabrielGraph1}{misc}{}
       \name{author}{1}{}{%
         {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
@@ -105,7 +165,6 @@
     \endentry
   \enddatalist
   \missing{https://CRAN.R-project.org/package=GGClassification}
-  \missing{https://eigen.tuxfamily.org/index.php?title=Main_Page}
   \missing{https://github.com/RcppCore/Rcpp}
 \endrefsection
 \endinput
