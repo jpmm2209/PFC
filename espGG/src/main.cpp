@@ -11,39 +11,39 @@ extern char *csv_str;
 
 void setup()
 {
-	Serial.begin(9600);
-	delay(5000);
+	// Serial.begin(9600);
+	// delay(5000);
 
-	CSV_Parser cp(csv_str, /*format*/ "sL");
+	// CSV_Parser cp(csv_str, /*format*/ "sL");
 
-	Serial.println("Accessing values by column name:");
-	char **strings = (char **)cp["my_strings"];
-	int32_t *numbers = (int32_t *)cp["my_numbers"];
+	// Serial.println("Accessing values by column name:");
+	// char **strings = (char **)cp["my_strings"];
+	// int32_t *numbers = (int32_t *)cp["my_numbers"];
 
-	for (int row = 0; row < cp.getRowsCount(); row++)
-	{
-		Serial.print(row, DEC);
-		Serial.print(". String = ");
-		Serial.println(strings[row]);
-		Serial.print(row, DEC);
-		Serial.print(". Number = ");
-		Serial.println(numbers[row], DEC);
-	}
-	Serial.println();
+	// for (int row = 0; row < cp.getRowsCount(); row++)
+	// {
+	// 	Serial.print(row, DEC);
+	// 	Serial.print(". String = ");
+	// 	Serial.println(strings[row]);
+	// 	Serial.print(row, DEC);
+	// 	Serial.print(". Number = ");
+	// 	Serial.println(numbers[row], DEC);
+	// }
+	// Serial.println();
 
-	Serial.println("Accessing values by column number:");
-	strings = (char **)cp[0];
-	numbers = (int32_t *)cp[1];
+	// Serial.println("Accessing values by column number:");
+	// strings = (char **)cp[0];
+	// numbers = (int32_t *)cp[1];
 
-	for (int row = 0; row < cp.getRowsCount(); row++)
-	{
-		Serial.print(row, DEC);
-		Serial.print(". String = ");
-		Serial.println(strings[row]);
-		Serial.print(row, DEC);
-		Serial.print(". Number = ");
-		Serial.println(numbers[row], DEC);
-	}
+	// for (int row = 0; row < cp.getRowsCount(); row++)
+	// {
+	// 	Serial.print(row, DEC);
+	// 	Serial.print(". String = ");
+	// 	Serial.println(strings[row]);
+	// 	Serial.print(row, DEC);
+	// 	Serial.print(". Number = ");
+	// 	Serial.println(numbers[row], DEC);
+	// }
 
 	/*
 	  If we wanted to just check if the csv was parsed properly we could use:
@@ -51,29 +51,29 @@ void setup()
 	  (assumming that "Serial.begin(baud_rate)" was previously called. Because "cp.print()" is using "Serial" object)
 	*/
 
-	// Serial.begin(9600);
-	// Serial.println("\n \n --------Starting Program!---------");
-	// initValues();
-	// delay(2000);
+	Serial.begin(9600);
+	Serial.println("\n \n --------Starting Program!---------");
+	initValues();
+	delay(2000);
 
 	// printArrayXXd(X_train, "X_train");
 	// printArrayXXd(X_test, "X_test");
 	// printVector(y_train, "y_train");
 
-	// // Model
-	// ListTest mdl = model(X_train, y_train, false);
-	// Serial.println("Model Done!");
+	// Model
+	ListTest mdl = model(X_train, y_train, false);
+	Serial.println("Model Done!");
 
-	// // Predict
-	// ArrayXi prd = predict(mdl, X_test);
-	// Serial.println("Predict Done!");
-	// printArrayXi(prd, "Prediction");
+	// Predict
+	ArrayXi prd = predict(mdl, X_test);
+	Serial.println("Predict Done!");
+	printArrayXi(prd, "Prediction");
 
-	// // Acuracy
-	// float accuracy = testAccuracy(y_test, prd);
-	// Serial.print("Acurácia: ");
-	// Serial.print(accuracy);
-	// Serial.println("%");
+	// Acuracy
+	float accuracy = testAccuracy(y_test, prd);
+	Serial.print("Acurácia: ");
+	Serial.print(accuracy);
+	Serial.println("%");
 }
 
 void loop()
