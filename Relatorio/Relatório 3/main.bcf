@@ -2349,17 +2349,13 @@
     <bcf:citekey order="3">CRAN</bcf:citekey>
     <bcf:citekey order="4">Rlanguage</bcf:citekey>
     <bcf:citekey order="5">https://github.com/RcppCore/Rcpp</bcf:citekey>
-    <bcf:citekey order="6">Rlanguage</bcf:citekey>
-    <bcf:citekey order="7">CRAN</bcf:citekey>
+    <bcf:citekey order="6">AccelerometerData</bcf:citekey>
+    <bcf:citekey order="7">GabrielGraph1</bcf:citekey>
     <bcf:citekey order="8">https://CRAN.R-project.org/package=GGClassification</bcf:citekey>
-    <bcf:citekey order="9">https://github.com/RcppCore/Rcpp</bcf:citekey>
-    <bcf:citekey order="10">https://eigen.tuxfamily.org/index.php?title=Main_Page</bcf:citekey>
-    <bcf:citekey order="11">GabrielGraph1</bcf:citekey>
-    <bcf:citekey order="12">https://CRAN.R-project.org/package=GGClassification</bcf:citekey>
-    <bcf:citekey order="13">CRAN</bcf:citekey>
-    <bcf:citekey order="14">Rlanguage</bcf:citekey>
-    <bcf:citekey order="15">https://github.com/RcppCore/Rcpp</bcf:citekey>
-    <bcf:citekey order="16">https://eigen.tuxfamily.org/index.php?title=Main_Page</bcf:citekey>
+    <bcf:citekey order="9">CRAN</bcf:citekey>
+    <bcf:citekey order="10">Rlanguage</bcf:citekey>
+    <bcf:citekey order="11">https://github.com/RcppCore/Rcpp</bcf:citekey>
+    <bcf:citekey order="12">AccelerometerData</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
