@@ -11,7 +11,7 @@ extern char *csv_str;
 
 void setup()
 {
-	// Serial.begin(9600);
+	Serial.begin(9600);
 	// delay(5000);
 
 	// CSV_Parser cp(csv_str, /*format*/ "sL");
@@ -51,14 +51,15 @@ void setup()
 	  (assumming that "Serial.begin(baud_rate)" was previously called. Because "cp.print()" is using "Serial" object)
 	*/
 
-	Serial.begin(9600);
 	Serial.println("\n \n --------Starting Program!---------");
 	initValues();
 	delay(2000);
 
-	// printArrayXXd(X_train, "X_train");
-	// printArrayXXd(X_test, "X_test");
-	// printVector(y_train, "y_train");
+	Serial.println("\n \n --------PASSOU AQUI!---------");
+
+	printArrayXXd(X_train, "X_train");
+	printArrayXXd(X_test, "X_test");
+	printVector(y_train, "y_train");
 
 	// Model
 	ListTest mdl = model(X_train, y_train, false);

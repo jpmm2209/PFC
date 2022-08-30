@@ -4,7 +4,7 @@
 
 vector<int> y_test;
 vector<int> y_train;
-Eigen::ArrayXXd X_train(700, 3);
+Eigen::ArrayXXd X_train(700, 3);  // Ta dando problema aqui pois nao funciona com array de 2 dimensoes
 Eigen::ArrayXXd X_test(300, 3);
 
 void initValues()
