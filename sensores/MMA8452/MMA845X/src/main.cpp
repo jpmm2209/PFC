@@ -35,7 +35,7 @@ void setup()
 	// Stop I2C Transmission
 	Wire.endTransmission();
 	delay(300);
-	Serial.print("AccX, Accy, AccZ \n");
+	Serial.print("AccX, AccY, AccZ \n");
 }
 
 void loop()
