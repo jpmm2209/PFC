@@ -23,6 +23,8 @@ void setup()
 
 	Serial.println("Starting MPU loop!\n");
 
+	Serial.print("AccX,AccY,AccZ,AngX,AngY,AngZ\n");
+
 }
 
 // ----- main loop -----
@@ -30,11 +32,19 @@ void loop()
 {
 	mpu.update();
 
-	// Raw MPU
-	std::cout << mpu.getAccX() << " " << mpu.getAccY() << " " << mpu.getAccZ() << std::endl;
-	std::cout << mpu.getAngleX() << " " << mpu.getAngleY() << " " << mpu.getAngleZ() << std::endl;
-
+	// Output data to serial monitor
+	Serial.print(mpu.getAccX());
+	Serial.print(",");
+	Serial.print(mpu.getAccY());
+	Serial.print(",");
+	Serial.print(mpu.getAccZ());
+	Serial.print(",");
+	Serial.print(mpu.getAngleX());
+	Serial.print(",");
+	Serial.print(mpu.getAngleY());
+	Serial.print(",");
+	Serial.print(mpu.getAngleZ());
 	Serial.println();
 
-	delay(500);
+	delay(50);
 }
