@@ -1,0 +1,171 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{CRAN}{manual}{}
+      \name{author}{2}{}{%
+        {{hash=b50b4a492c83ee0d01209c420d23300a}{%
+           family={Dietrich},
+           familyi={D\bibinitperiod},
+           given={Jan\bibnamedelima Philipp},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=029171f8fe652798013fc08e0c3bc2c2}{%
+           family={Leoncio},
+           familyi={L\bibinitperiod},
+           given={Waldir},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{fullhash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{bibnamehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{authorbibnamehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{authornamehash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \strng{authorfullhash}{64c1d2a1ecdb29e5282d8b87db7bf9f0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 0.6.2}
+      \field{title}{citation: Software Citation Tools}
+      \field{year}{2022}
+    \endentry
+    \entry{Rlanguage}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=dcdebb6b35bff7c0568bf8c50ef8626d}{%
+           family={{R Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{fullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{bibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorbibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authornamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorfullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.R-project.org/
+      \endverb
+    \endentry
+    \entry{AccelerometerData}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7d61c356b2c09aacb14c66beadd77a7d}{%
+           family={Sampaio},
+           familyi={S\bibinitperiod},
+           given={Gustavo\bibnamedelima Scalabrini},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4c3fd6e78a91112bc91478070847e40c}{%
+           family={Aguiar\bibnamedelimb Vallim\bibnamedelima Filho},
+           familyi={A\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Arnaldo\bibnamedelima Rabello},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=a933659ca759d39cdafb2d4ecca23359}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Leilton\bibnamedelima Santos},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=7a229cb22d66dc30df24b03dab58250d}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Leandro\bibnamedelima Augusto},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{MDPI} {AG}}%
+      }
+      \strng{namehash}{e07e4462d3080d11eabedecb781177bf}
+      \strng{fullhash}{a168f3a0804aaaab576c72f8b8081d5f}
+      \strng{bibnamehash}{e07e4462d3080d11eabedecb781177bf}
+      \strng{authorbibnamehash}{e07e4462d3080d11eabedecb781177bf}
+      \strng{authornamehash}{e07e4462d3080d11eabedecb781177bf}
+      \strng{authorfullhash}{a168f3a0804aaaab576c72f8b8081d5f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{month}{10}
+      \field{number}{19}
+      \field{title}{Prediction of Motor Failure Time Using An Artificial Neural Network}
+      \field{volume}{19}
+      \field{year}{2019}
+      \field{pages}{4342}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s19194342
+      \endverb
+      \verb{urlraw}
+      \verb [Web Link]
+      \endverb
+      \verb{url}
+      \verb [Web%20Link]
+      \endverb
+    \endentry
+    \entry{GabrielGraph1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 12-May-2022]}
+      \field{title}{Gabriel graph --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Gabriel_graph&oldid=1087461346
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Gabriel_graph&oldid=1087461346
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{https://CRAN.R-project.org/package=GGClassification}
+  \missing{https://github.com/RcppCore/Rcpp}
+\endrefsection
+\endinput
+
