@@ -2344,18 +2344,6 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">refs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">GabrielGraph1</bcf:citekey>
-    <bcf:citekey order="2">https://CRAN.R-project.org/package=GGClassification</bcf:citekey>
-    <bcf:citekey order="3">CRAN</bcf:citekey>
-    <bcf:citekey order="4">Rlanguage</bcf:citekey>
-    <bcf:citekey order="5">https://github.com/RcppCore/Rcpp</bcf:citekey>
-    <bcf:citekey order="6">AccelerometerData</bcf:citekey>
-    <bcf:citekey order="7">GabrielGraph1</bcf:citekey>
-    <bcf:citekey order="8">https://CRAN.R-project.org/package=GGClassification</bcf:citekey>
-    <bcf:citekey order="9">CRAN</bcf:citekey>
-    <bcf:citekey order="10">Rlanguage</bcf:citekey>
-    <bcf:citekey order="11">https://github.com/RcppCore/Rcpp</bcf:citekey>
-    <bcf:citekey order="12">AccelerometerData</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
