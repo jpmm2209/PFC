@@ -22,3 +22,6 @@ https://datascience.stackexchange.com/questions/42143/what-is-the-largest-public
 
 
 http://smartsenselab.dcc.ufmg.br/wp-content/uploads/2019/02/Novel-Approaches-to-Human-Activity-Recognition-based-on.pdf
+
+
+https://towardsdatascience.com/feature-engineering-on-time-series-data-transforming-signal-data-of-a-smartphone-accelerometer-for-72cbe34b8a60
