@@ -16,7 +16,8 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # reading raw data file
-har_df = pd.read_csv('VibracaoX.csv')
+har_df = pd.read_csv('../treated-data/VibracaoX/Parado_1')
+title = 'Parado_1'
 
 # removing null values
 har_df = har_df.dropna()
@@ -27,14 +28,14 @@ y_list = []
 z_list = []
 train_labels = []
 
-window_size = 100
-step_size = 50
+window_size = 10
+step_size = 5
 
 # creating overlaping windows of size window-size 100
 for i in range(0, har_df.shape[0] - window_size, step_size):
-    xs = har_df['AccX'].values[i: i + 100]
-    ys = har_df['AccY'].values[i: i + 100]
-    zs = har_df['AccZ'].values[i: i + 100]
+    xs = har_df['AccX'].values[i: i + 10]
+    ys = har_df['AccY'].values[i: i + 10]
+    zs = har_df['AccZ'].values[i: i + 10]
     # label = stats.mode(har_df['activity'][i: i + 100])[0][0]
 
     x_list.append(xs)
@@ -136,6 +137,6 @@ X_train['sma'] =    pd.Series(x_list).apply(lambda x: np.sum(abs(x)/100)) + pd.S
 # plots
 ########
 
-X_train.plot(kind='line')
+X_train.plot(kind='line', title=title)
 # plt.plot(X_train)
 plt.show()
