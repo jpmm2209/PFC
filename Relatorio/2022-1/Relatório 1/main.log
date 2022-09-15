@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  14 SEP 2022 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  15 SEP 2022 15:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -576,17 +576,22 @@ Package pdftex.def Info: images/GiraeVoltaY.png  used on input line 34.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
+
+Overfull \hbox (19.9967pt too wide) in paragraph at lines 40--42
+\OT1/cmr/m/n/10 (-20) series-data-transforming-signal-data-of-a-smartphone-accelerometer-for-72cbe34b8a60
+ []
+
+[2
+
+ <./images/VibracaoX.png> <./images/VibracaoY.png> <./images/VibracaoZ.png>])
 No file 第一/第一.tex.
 No file 第二/第二.tex.
 No file 第三/第三.tex.
-[2
-
- <./images/VibracaoX.png> <./images/VibracaoY.png> <./images/VibracaoZ.png>]
+[3 <./images/CirculoZ.png> <./images/GiraeVoltaY.png>]
 
 LaTeX Warning: Empty bibliography on input line 66.
 
-[3 <./images/CirculoZ.png> <./images/GiraeVoltaY.png>] (./main.aux)
+(./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E543F51F3452CD42FB253E557B16B0AF;73.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -594,15 +599,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18326 strings out of 478268
- 324656 string characters out of 5846347
+ 18330 strings out of 478268
+ 324686 string characters out of 5846347
  1084177 words of memory out of 5000000
  36318 multiletter control sequences out of 15000+600000
- 471006 words of font info for 42 fonts, out of 8000000 for 9000
+ 471108 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,68p,1063b,1722s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (4 pages, 1004955 bytes).
+Output written on main.pdf (4 pages, 1010820 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
