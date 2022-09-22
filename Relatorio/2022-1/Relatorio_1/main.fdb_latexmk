@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1663803043 "main.bcf" "main.bbl" "main" 1663810521
-  "main.bcf" 1663810521 107351 27bf011c74b78cb95c09df8be7a84d84 "pdflatex"
+["biber main"] 1663810741 "main.bcf" "main.bbl" "main" 1663861735
+  "main.bcf" 1663861735 107247 1dba86e863aa83562705d031a2427a8c "pdflatex"
   "refs.bib" 1663800307 6949 44ddb20dd0d3b05953a6b45b454fe720 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1663810517 "/Users/jota/Documents/PFC/PFC/Relatorio/2022-1/Relatorio_1/main.tex" "main.pdf" "main" 1663810521
+["pdflatex"] 1663861731 "/Users/jota/Documents/PFC/PFC/Relatorio/2022-1/Relatorio_1/main.tex" "main.pdf" "main" 1663861735
   "/Users/jota/Documents/PFC/PFC/Relatorio/2022-1/Relatorio_1/main.tex" 1663810512 846 8150b00ade7a39d7c2dd9b9b288b6e4a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -109,9 +109,9 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1652357182 2826451 57dffc27b2ff4f0b9fce887d4a8be172 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "Capa/capa.tex" 1663274622 1246 9b0824d2933d9e9324474d7082e748f0 ""
-  "Conclusoes/Conclusoes.tex" 1658075076 1121 88c0bb1ea1201f89fe200b4d18ca7238 ""
-  "Desenvolvimento/Desenvolvimento.tex" 1663810509 3168 4ee0e57a9ce4f2c929911271750ae6ba ""
-  "Introducao/Introducao.tex" 1663802212 652 bb731f3b1444a6ab43f8ecfda8c513a7 ""
+  "Conclusoes/Conclusoes.tex" 1663861731 290 c9f235486daeb0388d17e3fad425c1a8 ""
+  "Desenvolvimento/Desenvolvimento.tex" 1663861235 3191 a027c69ec5f7cd0e03f7f9fc5dea5911 ""
+  "Introducao/Introducao.tex" 1663860836 658 ac14ab8d35d80aa900239ca1a9dc5b2d ""
   "Resumo/Resumo.tex" 1663801083 1151 b07eb3f34897aacefef51f5677ad30ba ""
   "images/CirculoZ.png" 1663274681 281856 f8650de1906de0e687b1670d79e7e1fe ""
   "images/GiraeVoltaY.png" 1663274681 320974 b4ba123f9be20e3f9cf5188222b7a266 ""
@@ -124,10 +124,10 @@
   "images/VibracaoY.png" 1663274681 374189 17af6fa8254068be695c204266cfcb42 ""
   "images/VibracaoZ.png" 1663274681 385895 aba36c36ae0e94c244711325eec1f910 ""
   "images/brasao_ufmg.png" 1663274681 9941 338739bbae18cb898c0bf2526869ace0 ""
-  "main.aux" 1663810521 23441 0475a4e75c5461533369a83d03110a50 "pdflatex"
-  "main.bbl" 1663803046 5267 717d458dfd5ad10e9dc09dda23c63f0e "biber main"
-  "main.out" 1663810521 386 ff27d6503cf4bd035e222871c6be2638 "pdflatex"
-  "main.run.xml" 1663810521 2301 b072550c06ee518f76809c9dd1e1de46 "pdflatex"
+  "main.aux" 1663861735 23278 2d0e9e659e8578e571f34d935db3424f "pdflatex"
+  "main.bbl" 1663810743 3439 fb12f7ceea73dfc104e7be7a9e5a7690 "biber main"
+  "main.out" 1663861735 386 ff27d6503cf4bd035e222871c6be2638 "pdflatex"
+  "main.run.xml" 1663861735 2301 b072550c06ee518f76809c9dd1e1de46 "pdflatex"
   "main.tex" 1663810512 846 8150b00ade7a39d7c2dd9b9b288b6e4a ""
   (generated)
   "main.aux"

@@ -19,51 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{LivroTexto}{book}{}
-      \name{author}{3}{}{%
-        {{hash=f3538a4d0634398da148515a2a9eb281}{%
-           family={Pádua\bibnamedelima Braga},
-           familyi={P\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=435eebe17dd468afd9a1e1114e8fbd8e}{%
-           family={Leon\bibnamedelimb Ferreira\bibnamedelima Carvalho},
-           familyi={L\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={A.C.P.},
-           giveni={A\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=75f0dbe76678182eb96b4c6a3d409338}{%
-           family={Ludermir},
-           familyi={L\bibinitperiod},
-           given={T.B.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Livros Técnicos e Científicos}%
-      }
-      \strng{namehash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \strng{fullhash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \strng{bibnamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \strng{authorbibnamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \strng{authornamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \strng{authorfullhash}{0baac8786925e1f85b19b1b3c4ccd16c}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9788521612186}
-      \field{title}{Redes neurais artificiais: teoria e aplicações}
-      \field{year}{2000}
-      \verb{urlraw}
-      \verb https://books.google.com.br/books?id=cUgEaAEACAAJ
-      \endverb
-      \verb{url}
-      \verb https://books.google.com.br/books?id=cUgEaAEACAAJ
-      \endverb
-    \endentry
     \entry{LuizBambirra}{article}{}
       \name{author}{4}{}{%
         {{hash=69a9d7b0688e511d25e77b040a87ae9c}{%

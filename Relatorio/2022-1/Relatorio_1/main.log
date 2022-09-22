@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  21 SEP 2022 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  22 SEP 2022 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -687,25 +687,25 @@ Package pdftex.def Info: images/Prototipo.png  used on input line 16.
 <images/VibracaoX.png, id=34, 1010.77625pt x 653.44125pt>
 File: images/VibracaoX.png Graphic file (type png)
 <use images/VibracaoX.png>
-Package pdftex.def Info: images/VibracaoX.png  used on input line 13.
+Package pdftex.def Info: images/VibracaoX.png  used on input line 21.
 (pdftex.def)             Requested size: 199.16928pt x 128.75162pt.
 <images/VibracaoY.png, id=35, 1010.77625pt x 635.37375pt>
 File: images/VibracaoY.png Graphic file (type png)
 <use images/VibracaoY.png>
-Package pdftex.def Info: images/VibracaoY.png  used on input line 20.
+Package pdftex.def Info: images/VibracaoY.png  used on input line 28.
 (pdftex.def)             Requested size: 199.16928pt x 125.19167pt.
 <images/VibracaoZ.png, id=36, 1010.77625pt x 635.37375pt>
 File: images/VibracaoZ.png Graphic file (type png)
 <use images/VibracaoZ.png>
-Package pdftex.def Info: images/VibracaoZ.png  used on input line 27.
+Package pdftex.def Info: images/VibracaoZ.png  used on input line 35.
 (pdftex.def)             Requested size: 199.16928pt x 125.19167pt.
 <images/CirculoZ.png, id=37, 1020.81375pt x 613.29124pt>
 File: images/CirculoZ.png Graphic file (type png)
 <use images/CirculoZ.png>
-Package pdftex.def Info: images/CirculoZ.png  used on input line 34.
+Package pdftex.def Info: images/CirculoZ.png  used on input line 42.
 (pdftex.def)             Requested size: 256.0748pt x 153.84648pt.
 
-Overfull \hbox (19.22636pt too wide) in paragraph at lines 34--36
+Overfull \hbox (19.22636pt too wide) in paragraph at lines 42--44
  [] 
  []
 
@@ -713,7 +713,7 @@ Overfull \hbox (19.22636pt too wide) in paragraph at lines 34--36
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 
+l.46 
       [1
 
 
@@ -722,50 +722,50 @@ l.38
 <images/GiraeVoltaY.png, id=56, 1020.81375pt x 613.29124pt>
 File: images/GiraeVoltaY.png Graphic file (type png)
 <use images/GiraeVoltaY.png>
-Package pdftex.def Info: images/GiraeVoltaY.png  used on input line 41.
+Package pdftex.def Info: images/GiraeVoltaY.png  used on input line 49.
 (pdftex.def)             Requested size: 256.0748pt x 153.84648pt.
 
-Overfull \hbox (19.22636pt too wide) in paragraph at lines 41--43
+Overfull \hbox (19.22636pt too wide) in paragraph at lines 49--51
  [] 
  []
 
 <images/VibracaoX_1_raw.png, id=58, 581.17125pt x 426.59375pt>
 File: images/VibracaoX_1_raw.png Graphic file (type png)
 <use images/VibracaoX_1_raw.png>
-Package pdftex.def Info: images/VibracaoX_1_raw.png  used on input line 103.
+Package pdftex.def Info: images/VibracaoX_1_raw.png  used on input line 110.
 (pdftex.def)             Requested size: 256.0748pt x 187.9687pt.
 
-Overfull \hbox (19.22636pt too wide) in paragraph at lines 103--104
+Overfull \hbox (19.22636pt too wide) in paragraph at lines 110--111
  [] 
  []
 
 <images/VibracaoX_1_stats.png, id=59, 1009.7725pt x 572.1375pt>
 File: images/VibracaoX_1_stats.png Graphic file (type png)
 <use images/VibracaoX_1_stats.png>
-Package pdftex.def Info: images/VibracaoX_1_stats.png  used on input line 109.
+Package pdftex.def Info: images/VibracaoX_1_stats.png  used on input line 116.
 (pdftex.def)             Requested size: 256.0748pt x 145.09431pt.
 
-Overfull \hbox (19.22636pt too wide) in paragraph at lines 109--110
+Overfull \hbox (19.22636pt too wide) in paragraph at lines 116--117
  [] 
  []
 
 <images/Parado_1_raw.png, id=60, 865.2325pt x 533.995pt>
 File: images/Parado_1_raw.png Graphic file (type png)
 <use images/Parado_1_raw.png>
-Package pdftex.def Info: images/Parado_1_raw.png  used on input line 119.
+Package pdftex.def Info: images/Parado_1_raw.png  used on input line 126.
 (pdftex.def)             Requested size: 256.0748pt x 158.04048pt.
 
-Overfull \hbox (19.22636pt too wide) in paragraph at lines 119--120
+Overfull \hbox (19.22636pt too wide) in paragraph at lines 126--127
  [] 
  []
 
 <images/Parado_1_stats.png, id=61, 941.5175pt x 533.995pt>
 File: images/Parado_1_stats.png Graphic file (type png)
 <use images/Parado_1_stats.png>
-Package pdftex.def Info: images/Parado_1_stats.png  used on input line 125.
+Package pdftex.def Info: images/Parado_1_stats.png  used on input line 132.
 (pdftex.def)             Requested size: 256.0748pt x 145.23167pt.
 
-Overfull \hbox (19.22636pt too wide) in paragraph at lines 125--126
+Overfull \hbox (19.22636pt too wide) in paragraph at lines 132--133
  [] 
  []
 
@@ -782,21 +782,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19453 strings out of 478268
- 343898 string characters out of 5846347
- 1113916 words of memory out of 5000000
- 37316 multiletter control sequences out of 15000+600000
- 476437 words of font info for 90 fonts, out of 8000000 for 9000
+ 19440 strings out of 478268
+ 343661 string characters out of 5846347
+ 1114834 words of memory out of 5000000
+ 37310 multiletter control sequences out of 15000+600000
+ 476227 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,68p,1060b,1664s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{https://towardsdatascience.com/feature-engineering-on-time-series-data-transforming-signal-data-of-a-smartphone-accelerometer-for-72cbe34b8a60} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (5 pages, 4600456 bytes).
+Output written on main.pdf (5 pages, 4593112 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
  27224 words of extra memory for PDF output out of 29859 (max. 10000000)
 

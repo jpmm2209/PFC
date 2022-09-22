@@ -2,7 +2,15 @@
 
 \subsection*{Parte 1}
 
-Foram recolhidos dados de amostra para os movimentos de vibração nos eixos X, Y e Z, movimento circular no eixo Z e movimento de rotação em torno de um ponto fora do objeto no eixo Y.
+Foram recolhidos dados de amostra para:
+
+- vibração nos eixos X, Y e Z
+
+- movimento circular no eixo Z
+
+- movimento de rotação em torno de um ponto fora do objeto no eixo Y. (Gira e volta)
+
+A aquisição de dados foi feita num período de 50ms.
 
 Nas figuras abaixo vemos os dados recolhidos. Em cada imagem temos 6 gráficos referentes respectivamente à aceleração 3 eixos e giroscópio nos 3 eixos.
 Podemos também ver que tivemos etapas de resolução do movimento e etapas de repouso.
@@ -40,7 +48,7 @@ Podemos também ver que tivemos etapas de resolução do movimento e etapas de r
     \center
     \includegraphics[width=9cm]{images/GiraeVoltaY.png}
     \label{img5}
-    \caption{ Movimento de rotação 180 graus no eixo Y, ida e volta }
+    \caption{ Gira e Volta no eixo Y }
 \end{figure}
 
 
@@ -87,14 +95,13 @@ como auxílio para feature engineering com dados de acelerômetro, extraí um c�
 18. signal magnitude area
 
 
-Desses irei fazer uma analise com os dados:
-Usarei apenas mean, median, number of peaks, energy, signal magnitude area, avg resultant
+Desses irei fazer uma analise com os dados usando apenas mean, median, number of peaks, energy, signal magnitude area, avg resultant
 
 
 \subsection*{Parte 3}
 
 
-Antes de definir os valores estatíisticos de cada tipo de movimento é preciso separar cada janela de dados correspondente ao inicio e fim do movimento.
+Antes de definir os valores estatíisticos de cada tipo de movimento é preciso separar janelas de dados correspondente ao inicio e fim do movimento.
 Nas figuras 7 e 8 podemos ver os dados de 1 amostra de vibração X e seus respectivos valores estatísticos.
 
 
