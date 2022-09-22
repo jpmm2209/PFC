@@ -1,5 +1,0 @@
-\babel@toc {brazilian}{}\relax 
-\contentsline {section}{\numberline {1}Resumo}{2}{section.1}%
-\contentsline {section}{\numberline {2}espGG}{2}{section.2}%
-\contentsline {section}{\numberline {3}Etapa Atual}{3}{section.3}%
-\contentsline {section}{\numberline {4}Próximos Passos}{3}{section.4}%
