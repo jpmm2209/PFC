@@ -7,12 +7,15 @@ https://archive.ics.uci.edu/ml/datasets/Accelerometer
 
 https://www.kaggle.com/competitions/accelerometer-biometric-competition/data
 
-https://datascience.stackexchange.com/questions/42143/what-is-the-largest-public-wearable-accelerometer-dataset?newreg=65c5acdc7b9c489284fec2acc3d01a41
+https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-
-http://smartsenselab.dcc.ufmg.br/wp-content/uploads/2019/02/Novel-Approaches-to-Human-Activity-Recognition-based-on.pdf
-
-https://jinbo-bi.uconn.edu/wp-content/uploads/sites/2638/2018/12/GeometricSVM-bb-neurocomp.pdf
-
+https://dl.acm.org/doi/10.1145/2370216.2370438
 
 https://towardsdatascience.com/feature-engineering-on-time-series-data-transforming-signal-data-of-a-smartphone-accelerometer-for-72cbe34b8a60
+
+
+## Dados importantes
+
+### Gravity
+SquareRoot(x^2 + y^2 + z^2) will make a sphere with 9.85 radius when the object is stopped
+
