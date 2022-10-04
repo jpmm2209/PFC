@@ -6,137 +6,117 @@
 ##########################################################
 
 
-import numpy as np 
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy import stats
-from scipy.signal import find_peaks
 import warnings
 warnings.filterwarnings('ignore')
 
 # reading raw data file
-har_df = pd.read_csv('../treated-data/VibracaoX/Parado_1')
-title = 'Parado_1'
+acc_data = pd.read_csv('../treated-data/VibracaoZ/VibracaoZ_3')
+print('\nVibracaoZ_3\n')
+title = 'VibracaoZ_3'
 
 # removing null values
-har_df = har_df.dropna()
-har_df.shape
-
-x_list = []
-y_list = []
-z_list = []
-train_labels = []
-
-window_size = 10
-step_size = 5
-
-# creating overlaping windows of size window-size 100
-for i in range(0, har_df.shape[0] - window_size, step_size):
-    xs = har_df['AccX'].values[i: i + 10]
-    ys = har_df['AccY'].values[i: i + 10]
-    zs = har_df['AccZ'].values[i: i + 10]
-    # label = stats.mode(har_df['activity'][i: i + 100])[0][0]
-
-    x_list.append(xs)
-    y_list.append(ys)
-    z_list.append(zs)
-    # train_labels.append(label)
-
-# Statistical Features on raw x, y and z in time domain
-X_train = pd.DataFrame()
+acc_data = acc_data.dropna()
+acc_data.shape
 
 # mean
-X_train['x_mean'] = pd.Series(x_list).apply(lambda x: x.mean())
-X_train['y_mean'] = pd.Series(y_list).apply(lambda x: x.mean())
-X_train['z_mean'] = pd.Series(z_list).apply(lambda x: x.mean())
+x_mean = acc_data['AccX'].mean()
+print("x_mean", x_mean)
+y_mean = acc_data['AccY'].mean()
+print("y_mean", y_mean)
+z_mean = acc_data['AccZ'].mean()
+print("z_mean", z_mean)
 
-# # std dev
-# X_train['x_std'] = pd.Series(x_list).apply(lambda x: x.std())
-# X_train['y_std'] = pd.Series(y_list).apply(lambda x: x.std())
-# X_train['z_std'] = pd.Series(z_list).apply(lambda x: x.std())
+# # # std dev
+# # X_train['x_std'] = pd.Series(x_list).apply(lambda x: x.std())
 
 # # avg absolute diff
-# X_train['x_aad'] = pd.Series(x_list).apply(lambda x: np.mean(np.absolute(x - np.mean(x))))
-# X_train['y_aad'] = pd.Series(y_list).apply(lambda x: np.mean(np.absolute(x - np.mean(x))))
-# X_train['z_aad'] = pd.Series(z_list).apply(lambda x: np.mean(np.absolute(x - np.mean(x))))
+# x_aad = acc_data['AccX'].apply(lambda x: np.mean(np.absolute(x - np.mean(x))))
+# print("x_aad", x_aad)
+# y_aad = acc_data['AccY'].apply(lambda x: np.mean(np.absolute(x - np.mean(x))))
+# print("y_aad", y_aad)
+# z_aad = acc_data['AccZ'].apply(lambda x: np.mean(np.absolute(x - np.mean(x))))
+# print("z_aad", z_aad)
 
-# # min
-# X_train['x_min'] = pd.Series(x_list).apply(lambda x: x.min())
-# X_train['y_min'] = pd.Series(y_list).apply(lambda x: x.min())
-# X_train['z_min'] = pd.Series(z_list).apply(lambda x: x.min())
+# min
+x_min = acc_data['AccX'].min()
+print("x_min", x_min)
+y_min = acc_data['AccY'].min()
+print("y_min", y_min)
+z_min = acc_data['AccZ'].min()
+print("z_min", z_min)
 
-# # max
-# X_train['x_max'] = pd.Series(x_list).apply(lambda x: x.max())
-# X_train['y_max'] = pd.Series(y_list).apply(lambda x: x.max())
-# X_train['z_max'] = pd.Series(z_list).apply(lambda x: x.max())
+# max
+x_max = acc_data['AccX'].max()
+print("x_max", x_max)
+y_max = acc_data['AccY'].max()
+print("y_max", y_max)
+z_max = acc_data['AccZ'].max()
+print("z_max", z_max)
 
-# # max-min diff
-# X_train['x_maxmin_diff'] = X_train['x_max'] - X_train['x_min']
-# X_train['y_maxmin_diff'] = X_train['y_max'] - X_train['y_min']
-# X_train['z_maxmin_diff'] = X_train['z_max'] - X_train['z_min']
+# max-min diff
+x_maxmin_diff = x_max - x_min
+print("x_maxmin_diff", x_maxmin_diff)
+y_maxmin_diff = y_max - y_min
+print("y_maxmin_diff", y_maxmin_diff)
+z_maxmin_diff = z_max - z_min
+print("z_maxmin_diff", z_maxmin_diff)
 
-# median
-X_train['x_median'] = pd.Series(x_list).apply(lambda x: np.median(x))
-X_train['y_median'] = pd.Series(y_list).apply(lambda x: np.median(x))
-X_train['z_median'] = pd.Series(z_list).apply(lambda x: np.median(x))
+# # median
+# X_train['x_median'] = acc_data['AccX'].apply(lambda x: np.median(x))
 
-# # median abs dev 
-# X_train['x_mad'] = pd.Series(x_list).apply(lambda x: np.median(np.absolute(x - np.median(x))))
-# X_train['y_mad'] = pd.Series(y_list).apply(lambda x: np.median(np.absolute(x - np.median(x))))
-# X_train['z_mad'] = pd.Series(z_list).apply(lambda x: np.median(np.absolute(x - np.median(x))))
+# # # median abs dev 
+# # X_train['x_mad'] = acc_data['AccX'].apply(lambda x: np.median(np.absolute(x - np.median(x))))
 
-# # interquartile range
-# X_train['x_IQR'] = pd.Series(x_list).apply(lambda x: np.percentile(x, 75) - np.percentile(x, 25))
-# X_train['y_IQR'] = pd.Series(y_list).apply(lambda x: np.percentile(x, 75) - np.percentile(x, 25))
-# X_train['z_IQR'] = pd.Series(z_list).apply(lambda x: np.percentile(x, 75) - np.percentile(x, 25))
+# # # interquartile range
+# # X_train['x_IQR'] = acc_data['AccX'].apply(lambda x: np.percentile(x, 75) - np.percentile(x, 25))
 
 # # negtive count
-# X_train['x_neg_count'] = pd.Series(x_list).apply(lambda x: np.sum(x < 0))
-# X_train['y_neg_count'] = pd.Series(y_list).apply(lambda x: np.sum(x < 0))
-# X_train['z_neg_count'] = pd.Series(z_list).apply(lambda x: np.sum(x < 0))
+# x_neg_count = acc_data['AccX'].apply(lambda x: np.sum(x < 0))
+# print("x_neg_count", x_neg_count)
+# y_neg_count = acc_data['AccY'].apply(lambda x: np.sum(x < 0))
+# print("y_neg_count", y_neg_count)
+# z_neg_count = acc_data['AccZ'].apply(lambda x: np.sum(x < 0))
+# print("z_neg_count", z_neg_count)
 
 # # positive count
-# X_train['x_pos_count'] = pd.Series(x_list).apply(lambda x: np.sum(x > 0))
-# X_train['y_pos_count'] = pd.Series(y_list).apply(lambda x: np.sum(x > 0))
-# X_train['z_pos_count'] = pd.Series(z_list).apply(lambda x: np.sum(x > 0))
+# x_pos_count = acc_data['AccX'].apply(lambda x: np.sum(x > 0))
+# print("x_pos_count", x_pos_count)
+# y_pos_count = acc_data['AccY'].apply(lambda x: np.sum(x > 0))
+# print("y_pos_count", y_pos_count)
+# z_pos_count = acc_data['AccZ'].apply(lambda x: np.sum(x > 0))
+# print("z_pos_count", z_pos_count)
 
 # # values above mean
-# X_train['x_above_mean'] = pd.Series(x_list).apply(lambda x: np.sum(x > x.mean()))
-# X_train['y_above_mean'] = pd.Series(y_list).apply(lambda x: np.sum(x > x.mean()))
-# X_train['z_above_mean'] = pd.Series(z_list).apply(lambda x: np.sum(x > x.mean()))
+# x_above_mean = acc_data['AccX'].apply(lambda x: np.sum(x > x.mean()))
+# print("x_above_mean", x_above_mean)
+# y_above_mean = acc_data['AccY'].apply(lambda x: np.sum(x > x.mean()))
+# print("y_above_mean", y_above_mean)
+# z_above_mean = acc_data['AccZ'].apply(lambda x: np.sum(x > x.mean()))
+# print("z_above_mean", z_above_mean)
 
-# number of peaks
-X_train['x_peak_count'] = pd.Series(x_list).apply(lambda x: len(find_peaks(x)[0]))
-X_train['y_peak_count'] = pd.Series(y_list).apply(lambda x: len(find_peaks(x)[0]))
-X_train['z_peak_count'] = pd.Series(z_list).apply(lambda x: len(find_peaks(x)[0]))
+# # number of peaks
+# x_peaks = acc_data['AccX'].apply(lambda x: len(find_peaks(x)[0]))
+# print("x_peaks", x_peaks)
+# y_peaks = acc_data['AccY'].apply(lambda x: len(find_peaks(x)[0]))
+# print("y_peaks", y_peaks)
+# z_peaks = acc_data['AccZ'].apply(lambda x: len(find_peaks(x)[0]))
+# print("z_peaks", z_peaks)
 
-# # skewness
-# X_train['x_skewness'] = pd.Series(x_list).apply(lambda x: stats.skew(x))
-# X_train['y_skewness'] = pd.Series(y_list).apply(lambda x: stats.skew(x))
-# X_train['z_skewness'] = pd.Series(z_list).apply(lambda x: stats.skew(x))
+# # # skewness
+# # X_train['x_skewness'] = acc_data['AccX'].apply(lambda x: stats.skew(x))
 
-# # kurtosis
-# X_train['x_kurtosis'] = pd.Series(x_list).apply(lambda x: stats.kurtosis(x))
-# X_train['y_kurtosis'] = pd.Series(y_list).apply(lambda x: stats.kurtosis(x))
-# X_train['z_kurtosis'] = pd.Series(z_list).apply(lambda x: stats.kurtosis(x))
+# # # kurtosis
+# # X_train['x_kurtosis'] = acc_data['AccX'].apply(lambda x: stats.kurtosis(x))
 
-# energy
-X_train['x_energy'] = pd.Series(x_list).apply(lambda x: np.sum(x**2)/100)
-X_train['y_energy'] = pd.Series(y_list).apply(lambda x: np.sum(x**2)/100)
-X_train['z_energy'] = pd.Series(z_list).apply(lambda x: np.sum(x**2/100))
+# # # energy
+# x_energy = acc_data['AccX'].apply(lambda x: np.sum(x**2)/100)
+# print("x_energy", x_energy)
 
-# avg resultant
-X_train['avg_result_accl'] = [i.mean() for i in ((pd.Series(x_list)**2 + pd.Series(y_list)**2 + pd.Series(z_list)**2)**0.5)]
+# # avg resultant
+# avg_result_accl = [i.mean() for i in ((acc_data['AccX']**2 + acc_data['AccY']**2 + acc_data['AccZ']**2)**0.5)]
+# print("avg_result_accl", avg_result_accl)
 
-# signal magnitude area
-X_train['sma'] =    pd.Series(x_list).apply(lambda x: np.sum(abs(x)/100)) + pd.Series(y_list).apply(lambda x: np.sum(abs(x)/100)) \
-                  + pd.Series(z_list).apply(lambda x: np.sum(abs(x)/100))
-
-########
-# plots
-########
-
-X_train.plot(kind='line', title=title)
-# plt.plot(X_train)
-plt.show()
+# # signal magnitude area
+# sig_mag_area = acc_data['AccX'].apply(lambda x: np.sum(abs(x)/100)) + acc_data['AccY'].apply(lambda x: np.sum(abs(x)/100)) + acc_data['AccZ'].apply(lambda x: np.sum(abs(x)/100))
+# print("sig_mag_area", sig_mag_area)

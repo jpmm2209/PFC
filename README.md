@@ -1,18 +1,7 @@
-# PFC
-
-conda activate mlp
+# PFC - Aplicação de reconhecimento de padrões em dados de sensor acelerômetro utilizando grafo geométrico em sistema de microcontrolador embarcado
 
 
-https://www.youtube.com/watch?v=kZdIO82059E
-
-https://github.com/tensorflow/tflite-micro/blob/main/tensorflow/lite/micro/examples/hello_world/README.md
-
-https://www.tensorflow.org/lite/microcontrollers/get_started_low_level
-
-https://www.youtube.com/watch?v=dEHGv-TEOl8
-
-
--------referencias acelerometro data
+## Accelerometer data Analysis 
 
 https://archive.ics.uci.edu/ml/datasets/Accelerometer
 
@@ -22,6 +11,8 @@ https://datascience.stackexchange.com/questions/42143/what-is-the-largest-public
 
 
 http://smartsenselab.dcc.ufmg.br/wp-content/uploads/2019/02/Novel-Approaches-to-Human-Activity-Recognition-based-on.pdf
+
+https://jinbo-bi.uconn.edu/wp-content/uploads/sites/2638/2018/12/GeometricSVM-bb-neurocomp.pdf
 
 
 https://towardsdatascience.com/feature-engineering-on-time-series-data-transforming-signal-data-of-a-smartphone-accelerometer-for-72cbe34b8a60
