@@ -26,44 +26,55 @@ plt.show()
 #
 ####################
 
-# Vibracao X
-plt.title("Vibracao X")
-plt.plot(df[30:60])
-plt.show()
-
-df[30:60].to_csv("VibracaoX_1", index=False)
 
 # Parado
 plt.title("Parado")
-plt.plot(df[100:200])
+df.loc[0:15,'class'] = 'Parado'
+plt.plot(df[0:15].drop(['class'], axis=1))
 plt.show()
-
-df[100:200].to_csv("Parado_1", index=False)
+# df[0:30].to_csv("Parado_1", index=False)
 
 # Vibracao X
 plt.title("Vibracao X")
-plt.plot(df[200:255])
+df.loc[15:100,'class'] = 'VibracaoX'
+plt.plot(df[15:100].drop(['class'], axis=1))
 plt.show()
+# df[15:100].to_csv("VibracaoX_1", index=False)
 
-df[200:255].to_csv("VibracaoX_2", index=False)
+# Noise
+plt.title("Noise")
+df.loc[100:200,'class'] = 'Noise'
+plt.plot(df[100:200].drop(['class'], axis=1))
+plt.show()
+# df[100:200].to_csv("Parado_1", index=False)
+
+# Vibracao X
+plt.title("Vibracao X")
+df.loc[200:255,'class'] = 'VibracaoX'
+plt.plot(df[200:255].drop(['class'], axis=1))
+plt.show()
+# df[200:255].to_csv("VibracaoX_2", index=False)
 
 # Parado 
 plt.title("Parado")
-plt.plot(df[255:290])
+df.loc[255:290,'class'] = 'Parado'
+plt.plot(df[255:290].drop(['class'], axis=1))
 plt.show()
-
-df[255:290].to_csv("Parado_2", index=False)
+# df[255:290].to_csv("Parado_2", index=False)
 
 # Vibração leve X
 plt.title("Vibracao leve X")
-plt.plot(df[290:340])
+df.loc[290:360,'class'] = 'VibracaoX'
+plt.plot(df[290:360].drop(['class'], axis=1))
 plt.show()
-
-df[290:340].to_csv("VibracaoX_3", index=False)
+# df[290:340].to_csv("VibracaoX_3", index=False)
 
 # Parado
 plt.title("Parado")
-plt.plot(df[340:])
+df.loc[360:,'class'] = 'Parado'
+plt.plot(df[360:].drop(['class'], axis=1))
 plt.show()
+# df[340:].to_csv("Parado_3", index=False)
 
-df[340:].to_csv("Parado_3", index=False)
+# Classified final data
+df.to_csv("classifiedVibracaoX.csv", index=False)

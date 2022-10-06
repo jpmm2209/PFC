@@ -26,58 +26,61 @@ plt.show()
 #
 ####################
 
-# Noisa
-plt.title("Noisa")
-plt.plot(df[0:30])
+# Noise
+plt.title("Noise")
+df.loc[:30,'class'] = 'Noise'
+plt.plot(df[:30].drop(['class'], axis=1))
 plt.show()
-
-df[0:30].to_csv("Noise_1", index=False)
+# df[:30].to_csv("Noise_1", index=False)
 
 # Parado
 plt.title("Parado")
-plt.plot(df[30:60])
+df.loc[30:60,'class'] = 'Parado'
+plt.plot(df[30:60].drop(['class'], axis=1))
 plt.show()
-
-df[30:60].to_csv("Parado_1", index=False)
+# df[30:60].to_csv("Parado_1", index=False)
 
 # Vibracao Z
 plt.title("Vibracao Z")
-plt.plot(df[60:120])
+df.loc[60:120,'class'] = 'VibracaoZ'
+plt.plot(df[60:120].drop(['class'], axis=1))
 plt.show()
-
-df[60:120].to_csv("VibracaoZ_1", index=False)
+# df[60:120].to_csv("VibracaoZ_1", index=False)
 
 # Parado 
 plt.title("Parado")
-plt.plot(df[120:145])
+df.loc[120:145,'class'] = 'Parado'
+plt.plot(df[120:145].drop(['class'], axis=1))
 plt.show()
-
-df[120:145].to_csv("Parado_2", index=False)
+# df[120:145].to_csv("Parado_2", index=False)
 
 # Vibração Z
 plt.title("Vibracao Z")
-plt.plot(df[120:180])
+df.loc[120:180,'class'] = 'VibracaoZ'
+plt.plot(df[120:180].drop(['class'], axis=1))
 plt.show()
-
-df[120:180].to_csv("VibracaoZ_2", index=False)
+# df[120:180].to_csv("VibracaoZ_2", index=False)
 
 # Parado
 plt.title("Parado")
-plt.plot(df[180:200])
+df.loc[180:200,'class'] = 'Parado'
+plt.plot(df[180:200].drop(['class'], axis=1))
 plt.show()
-
-df[180:200].to_csv("Parado_3", index=False)
+# df[180:200].to_csv("Parado_3", index=False)
 
 # Vibração Z
 plt.title("Vibracao Z")
-plt.plot(df[200:250])
+df.loc[200:250,'class'] = 'VibracaoZ'
+plt.plot(df[200:250].drop(['class'], axis=1))
 plt.show()
-
-df[200:250].to_csv("VibracaoZ_3", index=False)
+# df[200:250].to_csv("VibracaoZ_3", index=False)
 
 # Parado
 plt.title("Parado")
-plt.plot(df[250:])
+df.loc[250:,'class'] = 'Parado'
+plt.plot(df[250:].drop(['class'], axis=1))
 plt.show()
+# df[250:].to_csv("Parado_4", index=False)
 
-df[250:].to_csv("Parado_4", index=False)
+# Classified final data
+df.to_csv("classifiedVibracaoZ.csv", index=False)

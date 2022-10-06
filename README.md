@@ -1,7 +1,8 @@
-# PFC - Aplicação de reconhecimento de padrões em dados de sensor acelerômetro utilizando grafo geométrico em sistema de microcontrolador embarcado
+# PFC
 
+## Aplicação de reconhecimento de padrões em dados de sensor acelerômetro utilizando grafo geométrico em sistema de microcontrolador embarcado
 
-## Accelerometer data Analysis 
+### Accelerometer data Analysis 
 
 https://archive.ics.uci.edu/ml/datasets/Accelerometer
 
@@ -14,8 +15,8 @@ https://dl.acm.org/doi/10.1145/2370216.2370438
 https://towardsdatascience.com/feature-engineering-on-time-series-data-transforming-signal-data-of-a-smartphone-accelerometer-for-72cbe34b8a60
 
 
-## Dados importantes
+### Dados importantes
 
-### Gravity
+#### Gravity
 SquareRoot(x^2 + y^2 + z^2) will make a sphere with 9.85 radius when the object is stopped
 
