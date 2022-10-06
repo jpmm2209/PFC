@@ -11,9 +11,9 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # reading raw data file
-acc_data = pd.read_csv('../treated-data/VibracaoZ/VibracaoZ_3')
-print('\nVibracaoZ_3\n')
-title = 'VibracaoZ_3'
+acc_data = pd.read_csv('classifiedData.csv')
+print('\nclassifiedData\n')
+title = 'classifiedData'
 
 # removing null values
 acc_data = acc_data.dropna()
