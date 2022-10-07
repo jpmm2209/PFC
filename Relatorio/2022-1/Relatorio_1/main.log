@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  22 SEP 2022 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  7 OCT 2022 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -729,52 +729,88 @@ Overfull \hbox (19.22636pt too wide) in paragraph at lines 49--51
  [] 
  []
 
-<images/VibracaoX_1_raw.png, id=58, 581.17125pt x 426.59375pt>
-File: images/VibracaoX_1_raw.png Graphic file (type png)
-<use images/VibracaoX_1_raw.png>
-Package pdftex.def Info: images/VibracaoX_1_raw.png  used on input line 110.
-(pdftex.def)             Requested size: 256.0748pt x 187.9687pt.
+<images/sampleVibracaoX.png, id=57, 565.11125pt x 442.65375pt>
+File: images/sampleVibracaoX.png Graphic file (type png)
+<use images/sampleVibracaoX.png>
+Package pdftex.def Info: images/sampleVibracaoX.png  used on input line 83.
+(pdftex.def)             Requested size: 170.71652pt x 133.72249pt.
+<images/sampleVibracaoY.png, id=58, 563.10374pt x 438.63875pt>
+File: images/sampleVibracaoY.png Graphic file (type png)
+<use images/sampleVibracaoY.png>
+Package pdftex.def Info: images/sampleVibracaoY.png  used on input line 88.
+(pdftex.def)             Requested size: 170.71652pt x 132.9781pt.
+<images/sampleVibracaoZ.png, id=59, 557.08125pt x 434.62375pt>
+File: images/sampleVibracaoZ.png Graphic file (type png)
+<use images/sampleVibracaoZ.png>
+Package pdftex.def Info: images/sampleVibracaoZ.png  used on input line 93.
+(pdftex.def)             Requested size: 170.71652pt x 133.18675pt.
+<images/sampleCirculoZ.png, id=60, 560.0925pt x 427.5975pt>
+File: images/sampleCirculoZ.png Graphic file (type png)
+<use images/sampleCirculoZ.png>
+Package pdftex.def Info: images/sampleCirculoZ.png  used on input line 98.
+(pdftex.def)             Requested size: 170.71652pt x 130.32896pt.
+<images/sampleGiraeVoltaY.png, id=61, 612.2875pt x 429.605pt>
+File: images/sampleGiraeVoltaY.png Graphic file (type png)
+<use images/sampleGiraeVoltaY.png>
+Package pdftex.def Info: images/sampleGiraeVoltaY.png  used on input line 103.
+(pdftex.def)             Requested size: 170.71652pt x 119.77727pt.
+<images/sampleNoise.png, id=62, 554.07pt x 439.6425pt>
+File: images/sampleNoise.png Graphic file (type png)
+<use images/sampleNoise.png>
+Package pdftex.def Info: images/sampleNoise.png  used on input line 108.
+(pdftex.def)             Requested size: 170.71652pt x 135.45592pt.
+<images/sampleParado.png, id=63, 562.1pt x 441.65pt>
+File: images/sampleParado.png Graphic file (type png)
+<use images/sampleParado.png>
+Package pdftex.def Info: images/sampleParado.png  used on input line 113.
+(pdftex.def)             Requested size: 170.71652pt x 134.13359pt.
+[2 <./images/CirculoZ.png> <./images/GiraeVoltaY.png> <./images/sampleVibracaoX.png> <./images/sampleVibracaoY.png> <./images/sampleVibracaoZ.png> <./images/sampleCirculoZ.png>]
+<images/sampleDistribution.png, id=81, 996.72375pt x 563.10374pt>
+File: images/sampleDistribution.png Graphic file (type png)
+<use images/sampleDistribution.png>
+Package pdftex.def Info: images/sampleDistribution.png  used on input line 140.
+(pdftex.def)             Requested size: 256.0748pt x 144.66788pt.
 
-Overfull \hbox (19.22636pt too wide) in paragraph at lines 110--111
+Overfull \hbox (19.22636pt too wide) in paragraph at lines 140--141
  [] 
  []
 
-<images/VibracaoX_1_stats.png, id=59, 1009.7725pt x 572.1375pt>
-File: images/VibracaoX_1_stats.png Graphic file (type png)
-<use images/VibracaoX_1_stats.png>
-Package pdftex.def Info: images/VibracaoX_1_stats.png  used on input line 116.
-(pdftex.def)             Requested size: 256.0748pt x 145.09431pt.
-
-Overfull \hbox (19.22636pt too wide) in paragraph at lines 116--117
- [] 
- []
-
-<images/Parado_1_raw.png, id=60, 865.2325pt x 533.995pt>
-File: images/Parado_1_raw.png Graphic file (type png)
-<use images/Parado_1_raw.png>
-Package pdftex.def Info: images/Parado_1_raw.png  used on input line 126.
-(pdftex.def)             Requested size: 256.0748pt x 158.04048pt.
-
-Overfull \hbox (19.22636pt too wide) in paragraph at lines 126--127
- [] 
- []
-
-<images/Parado_1_stats.png, id=61, 941.5175pt x 533.995pt>
-File: images/Parado_1_stats.png Graphic file (type png)
-<use images/Parado_1_stats.png>
-Package pdftex.def Info: images/Parado_1_stats.png  used on input line 132.
-(pdftex.def)             Requested size: 256.0748pt x 145.23167pt.
-
-Overfull \hbox (19.22636pt too wide) in paragraph at lines 132--133
- [] 
- []
-
-[2 <./images/CirculoZ.png> <./images/GiraeVoltaY.png> <./images/VibracaoX_1_raw.png> <./images/VibracaoX_1_stats.png>]) (./Conclusoes/Conclusoes.tex) [3 <./images/Parado_1_raw.png> <./images/Parado_1_stats.png>]
+<images/AccXdistribution.png, id=82, 614.295pt x 423.5825pt>
+File: images/AccXdistribution.png Graphic file (type png)
+<use images/AccXdistribution.png>
+Package pdftex.def Info: images/AccXdistribution.png  used on input line 153.
+(pdftex.def)             Requested size: 199.16928pt x 137.33305pt.
+<images/AccYdistribution.png, id=83, 597.23125pt x 412.54124pt>
+File: images/AccYdistribution.png Graphic file (type png)
+<use images/AccYdistribution.png>
+Package pdftex.def Info: images/AccYdistribution.png  used on input line 158.
+(pdftex.def)             Requested size: 199.16928pt x 137.57425pt.
+<images/AccZdistribution.png, id=84, 633.36626pt x 378.41376pt>
+File: images/AccZdistribution.png Graphic file (type png)
+<use images/AccZdistribution.png>
+Package pdftex.def Info: images/AccZdistribution.png  used on input line 163.
+(pdftex.def)             Requested size: 199.16928pt x 118.99309pt.
+[3 <./images/sampleGiraeVoltaY.png> <./images/sampleNoise.png> <./images/sampleParado.png> <./images/sampleDistribution.png> <./images/AccXdistribution.png> <./images/AccYdistribution.png>]
+<images/AngXdistribution.png, id=102, 520.94624pt x 466.74374pt>
+File: images/AngXdistribution.png Graphic file (type png)
+<use images/AngXdistribution.png>
+Package pdftex.def Info: images/AngXdistribution.png  used on input line 172.
+(pdftex.def)             Requested size: 142.26378pt x 127.46112pt.
+<images/AngYdistribution.png, id=103, 480.79625pt x 434.62375pt>
+File: images/AngYdistribution.png Graphic file (type png)
+<use images/AngYdistribution.png>
+Package pdftex.def Info: images/AngYdistribution.png  used on input line 177.
+(pdftex.def)             Requested size: 142.26378pt x 128.60417pt.
+File: images/AngYdistribution.png Graphic file (type png)
+<use images/AngYdistribution.png>
+Package pdftex.def Info: images/AngYdistribution.png  used on input line 182.
+(pdftex.def)             Requested size: 142.26378pt x 128.60417pt.
+) (./Conclusoes/Conclusoes.tex) [4 <./images/AccZdistribution.png> <./images/AngXdistribution.png> <./images/AngYdistribution.png>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [4] (./main.aux)
+ [5] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FF27D6503CF4BD035E222871C6BE2638;386.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -782,21 +818,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19440 strings out of 478268
- 343661 string characters out of 5846347
- 1114834 words of memory out of 5000000
- 37310 multiletter control sequences out of 15000+600000
+ 19513 strings out of 478268
+ 345491 string characters out of 5846347
+ 1115410 words of memory out of 5000000
+ 37364 multiletter control sequences out of 15000+600000
  476227 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,68p,1060b,1664s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{https://towardsdatascience.com/feature-engineering-on-time-series-data-transforming-signal-data-of-a-smartphone-accelerometer-for-72cbe34b8a60} has been referenced but does not exist, replaced by a fixed one
-
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (5 pages, 4593112 bytes).
+Output written on main.pdf (6 pages, 6650958 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 26 named destinations out of 1000 (max. 500000)
- 27224 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 27269 words of extra memory for PDF output out of 29859 (max. 10000000)
 
