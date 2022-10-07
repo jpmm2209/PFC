@@ -30,6 +30,7 @@ plt.show()
 plt.title("Noise")
 df.loc[:30,'class'] = 'Noise'
 plt.plot(df[:30].drop(['class'], axis=1))
+plt.legend(['AccX','AccY','AccZ','AngX','AngY','AngZ'])
 plt.show()
 # df[:30].to_csv("Noise_1", index=False)
 
@@ -37,6 +38,7 @@ plt.show()
 plt.title("Parado")
 df.loc[30:60,'class'] = 'Parado'
 plt.plot(df[30:60].drop(['class'], axis=1))
+plt.legend(['AccX','AccY','AccZ','AngX','AngY','AngZ'])
 plt.show()
 # df[30:60].to_csv("Parado_1", index=False)
 
@@ -44,6 +46,7 @@ plt.show()
 plt.title("Vibracao Z")
 df.loc[60:120,'class'] = 'VibracaoZ'
 plt.plot(df[60:120].drop(['class'], axis=1))
+plt.legend(['AccX','AccY','AccZ','AngX','AngY','AngZ'])
 plt.show()
 # df[60:120].to_csv("VibracaoZ_1", index=False)
 
@@ -51,6 +54,7 @@ plt.show()
 plt.title("Parado")
 df.loc[120:145,'class'] = 'Parado'
 plt.plot(df[120:145].drop(['class'], axis=1))
+plt.legend(['AccX','AccY','AccZ','AngX','AngY','AngZ'])
 plt.show()
 # df[120:145].to_csv("Parado_2", index=False)
 
@@ -58,6 +62,7 @@ plt.show()
 plt.title("Vibracao Z")
 df.loc[120:180,'class'] = 'VibracaoZ'
 plt.plot(df[120:180].drop(['class'], axis=1))
+plt.legend(['AccX','AccY','AccZ','AngX','AngY','AngZ'])
 plt.show()
 # df[120:180].to_csv("VibracaoZ_2", index=False)
 
@@ -65,6 +70,7 @@ plt.show()
 plt.title("Parado")
 df.loc[180:200,'class'] = 'Parado'
 plt.plot(df[180:200].drop(['class'], axis=1))
+plt.legend(['AccX','AccY','AccZ','AngX','AngY','AngZ'])
 plt.show()
 # df[180:200].to_csv("Parado_3", index=False)
 
@@ -72,6 +78,7 @@ plt.show()
 plt.title("Vibracao Z")
 df.loc[200:250,'class'] = 'VibracaoZ'
 plt.plot(df[200:250].drop(['class'], axis=1))
+plt.legend(['AccX','AccY','AccZ','AngX','AngY','AngZ'])
 plt.show()
 # df[200:250].to_csv("VibracaoZ_3", index=False)
 
@@ -79,6 +86,7 @@ plt.show()
 plt.title("Parado")
 df.loc[250:,'class'] = 'Parado'
 plt.plot(df[250:].drop(['class'], axis=1))
+plt.legend(['AccX','AccY','AccZ','AngX','AngY','AngZ'])
 plt.show()
 # df[250:].to_csv("Parado_4", index=False)
 
