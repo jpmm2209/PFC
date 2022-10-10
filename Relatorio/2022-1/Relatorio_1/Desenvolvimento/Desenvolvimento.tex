@@ -133,7 +133,9 @@ Definindo o formato da onda conseguimos diferenciar movimento de GiraeVolta de m
 
 Primeiramente analisei a distribuição de amostras que temos.
 Podemos ver no gráfico de Figura 14 que essa distribuição está desbalanceada.
-Temos mais amostras de movimento parado.
+Temos mais amostras de movimento parado. Além disso temos poucos dados para fazer
+um modelo de inferências. Por esse motivo, mais dados serão gerados e classificados na próxima etapa.
+Além disso, podemos aplicar técnicas de Undersampling, Oversampling e SMOTE\footcite[]{SMOTE: Synthetic Minority Oversampling Technique}.
 
 \begin{figure}[H]
     \center
@@ -145,7 +147,7 @@ Também foi realizado a distribuição de densidade dos dados em cada eixo do se
 para todos os movimentos em questão.
 
 As Figuras 15, 16 e 17 representam os dados recolhidos nos eixos do acelerômetro.
-Nelas vemos que o movimento de vibração nos eixos correspondentes apresentam dados muito mais distribuidos.
+Nelas vemos que o movimento de vibração nos eixos correspondentes apresentam dados mais distribuidos.
 
 
 \begin{figure}[H]
@@ -182,6 +184,13 @@ Podemos ver que nos dados desse sensor temos maior separabilidade entre os movim
     \includegraphics[width=5cm]{images/AngYdistribution.png}
     \caption{ AngY distribution }
 \end{figure}
+
+\subsection*{3.3 Data Transformation}
+
+Nessa etapa os dados foram reorganizados em listas de janelas de tempo (''windowing''). Isso porque um movimento não consegue ser
+detectado com apenas as informações adquiridas em uma amostra de tempo, mas sim em uma janela de amostras.
+Por esse motivo foram agregados 50 amostras em uma lista de valores e sua respectiva classificação. Essa transformação foi implementada de forma não discreta entre os dados,
+ou seja, cada janela de tempo terá dados da janela de tempo anterior também.
 
 
 
