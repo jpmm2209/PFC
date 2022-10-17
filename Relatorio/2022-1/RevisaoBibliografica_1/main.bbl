@@ -1,0 +1,127 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{HumanRecognitionLeonardoTorres}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4728e38ebdf7a5a8de0a16e3ca7e6894}{%
+           family={Jordao},
+           familyi={J\bibinitperiod},
+           given={Artur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0a95a2ad81fecf2397f07924c0ee97b2}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={Leonardo\bibnamedelimb Antônio\bibnamedelima Borges},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e8583752e2e4ba28b930f4f4b35cbaaf}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima Robson},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e282880face194ed9f9437e7593f299}
+      \strng{fullhash}{3e282880face194ed9f9437e7593f299}
+      \strng{bibnamehash}{3e282880face194ed9f9437e7593f299}
+      \strng{authorbibnamehash}{3e282880face194ed9f9437e7593f299}
+      \strng{authornamehash}{3e282880face194ed9f9437e7593f299}
+      \strng{authorfullhash}{3e282880face194ed9f9437e7593f299}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An increasing number of works have investigated the use of convolutional neural network (ConvNets) approaches to perform human activity recognition (HAR) based on wearable sensor data. These approaches present state-of-the-art results in HAR, outperforming traditional approaches, such as handcrafted methods and 1D convolutions. Motivated by this, in this work we propose a set of methods to enhance ConvNets for HAR. First, we propose a data augmentation which enables the ConvNets to learn more adequately the patterns of the signal. Second, we exploit the attitude estimation of the accelerometer data to devise a set of novel feature descriptors which allow the ConvNets to better discriminate the activities. Finally, we propose a novel ConvNet architecture to explore the patterns among the accelerometer axes throughout the layers that compose the network. We demonstrate that this is a simpler way of improving the activity recognition instead of proposing more complex architectures, serving as direction to future works with the purpose of building ConvNets architectures. The experimental results show that our proposed methods achieve notable improvements and outperform existing state-of-the-art methods.}
+      \field{isbn}{1863-1711}
+      \field{journaltitle}{Signal, Image and Video Processing}
+      \field{number}{7}
+      \field{title}{Novel approaches to human activity recognition based on accelerometer data}
+      \field{volume}{12}
+      \field{year}{2018}
+      \field{pages}{1387\bibrangedash 1394}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/s11760-018-1293-x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11760-018-1293-x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11760-018-1293-x
+      \endverb
+      \warn{\item Entry 'HumanRecognitionLeonardoTorres' (refs.bib): Invalid format '2018/10/01' of date field 'date' - ignoring}
+    \endentry
+    \entry{DeepLearningSensorBasedActivitie}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bb8497dbec3c80fbf3021681d4558315}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jindong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e58a75d32f62fb50be97c30117df7c74}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yiqiang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1ddbaae9f662ac777e90c308f6911f18}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Shuji},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ac5dfa3ca93d781cabb788c6c21844ef}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Xiaohui},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d5b4a792eab101cf1e100567462a9469}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Lisha},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{03d7fe57890340a9ad77b49749489f5f}
+      \strng{fullhash}{fac0a725d867e70d9f661c8b405e9dfc}
+      \strng{bibnamehash}{03d7fe57890340a9ad77b49749489f5f}
+      \strng{authorbibnamehash}{03d7fe57890340a9ad77b49749489f5f}
+      \strng{authornamehash}{03d7fe57890340a9ad77b49749489f5f}
+      \strng{authorfullhash}{fac0a725d867e70d9f661c8b405e9dfc}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Deep Learning for Sensor-based Activity Recognition: {A} Survey}
+      \field{volume}{abs/1707.03502}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1707.03502
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1707.03502
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1707.03502
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{TensorFlow Lite: https://www.tensorflow.org/lite}
+\endrefsection
+\endinput
+
