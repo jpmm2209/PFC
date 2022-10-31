@@ -1,0 +1,24 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[104] biber-darwin:340> INFO - === Mon Oct 17, 2022, 22:43:56
+[127] Biber.pm:418> INFO - Reading 'main.bcf'
+[260] Biber.pm:972> INFO - Found 3 citekeys in bib section 0
+[280] Biber.pm:4383> INFO - Processing section 0
+[295] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
+[297] bibtex.pm:1713> INFO - LaTeX decoding ...
+[318] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[402] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[402] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[402] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[402] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
+[412] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[415] bbl.pm:757> INFO - Output to main.bbl
+[415] Biber.pm:130> WARN - Entry 'HumanRecognitionLeonardoTorres' (refs.bib): Invalid format '2018/10/01' of date field 'date' - ignoring
+[415] Biber.pm:130> WARN - ISBN '1863-1711' in entry 'HumanRecognitionLeonardoTorres' is invalid - run biber with '--validate_datamodel' for details.
+[415] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_fGzx/8fe4c9854184545302f21ebf0d47516c_18766.utf8, line 3, warning: 16 characters of junk seen at toplevel
+[415] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_fGzx/8fe4c9854184545302f21ebf0d47516c_18766.utf8, line 26, warning: 41 characters of junk seen at toplevel
+[415] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_fGzx/8fe4c9854184545302f21ebf0d47516c_18766.utf8, line 42, warning: 42 characters of junk seen at toplevel
+[415] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_fGzx/8fe4c9854184545302f21ebf0d47516c_18766.utf8, line 58, warning: 67 characters of junk seen at toplevel
+[416] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_fGzx/8fe4c9854184545302f21ebf0d47516c_18766.utf8, line 83, warning: 29 characters of junk seen at toplevel
+[416] Biber.pm:130> WARN - I didn't find a database entry for 'TensorFlow Lite: https://www.tensorflow.org/lite' (section 0)
+[416] Biber.pm:132> INFO - WARNINGS: 8

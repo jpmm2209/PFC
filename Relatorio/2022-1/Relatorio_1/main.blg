@@ -1,0 +1,24 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[103] biber-darwin:340> INFO - === Sat Oct  8, 2022, 08:21:46
+[124] Biber.pm:418> INFO - Reading 'main.bcf'
+[256] Biber.pm:972> INFO - Found 3 citekeys in bib section 0
+[274] Biber.pm:4383> INFO - Processing section 0
+[291] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
+[293] bibtex.pm:1713> INFO - LaTeX decoding ...
+[311] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[362] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[362] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[362] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[363] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
+[365] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[366] bbl.pm:757> INFO - Output to main.bbl
+[366] Biber.pm:130> WARN - legacy month field 'March' in entry 'LuizBambirra' is not an integer - this will probably not sort properly.
+[367] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_6Ott/8fe4c9854184545302f21ebf0d47516c_21861.utf8, line 3, warning: 16 characters of junk seen at toplevel
+[367] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_6Ott/8fe4c9854184545302f21ebf0d47516c_21861.utf8, line 26, warning: 41 characters of junk seen at toplevel
+[367] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_6Ott/8fe4c9854184545302f21ebf0d47516c_21861.utf8, line 42, warning: 42 characters of junk seen at toplevel
+[367] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_6Ott/8fe4c9854184545302f21ebf0d47516c_21861.utf8, line 58, warning: 67 characters of junk seen at toplevel
+[367] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_6Ott/8fe4c9854184545302f21ebf0d47516c_21861.utf8, line 83, warning: 29 characters of junk seen at toplevel
+[367] Biber.pm:130> WARN - I didn't find a database entry for 'MEMS: Micro Eletro Mechanical System.' (section 0)
+[367] Biber.pm:130> WARN - I didn't find a database entry for 'SMOTE: Synthetic Minority Oversampling Technique' (section 0)
+[367] Biber.pm:132> INFO - WARNINGS: 8
